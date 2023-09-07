@@ -5,7 +5,7 @@
    "type": "module",
    "scripts": {
       "dev": "vite",
-      "build": "vite build --base=/OlehKotynskyi/project-GROUP_WORK/",
+      "build": "vite build --base=/project-GROUP_WORK/",
       "preview": "vite preview"
    },
    "devDependencies": {

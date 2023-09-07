@@ -4,6 +4,7 @@
    --black-gradient: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
    --brown: #BEA69E;
    --white: #FFFF;
+   --animation: 3s ease;
 }
 
 body {
@@ -54,7 +55,7 @@ body {
    font-size: 14px;
    font-weight: 400;
    text-transform: uppercase;
-   transition: color 3s ease;
+   transition: color var(--animation);
 }
 
 .link-nav:focus {
@@ -64,5 +65,52 @@ body {
 @media (hover:hover) {
    .link-nav:hover {
       color: var(--brown);
+   }
+}
+
+.section {
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+   .section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+}
+
+@media only screen and (min-width: 1280px) {
+   .section {
+      padding-top: 75px;
+      padding-bottom: 75px;
+   }
+}
+
+.container {
+   min-width: 320px;
+   max-width: 415px;
+   margin: 0 auto;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+   .container {
+      max-width: 768px;
+      padding-right: 32px;
+      padding-left: 32px;
+   }
+}
+
+@media only screen and (min-width: 1280px) {
+   .container {
+      max-width: 1144px;
+   }
+}
+
+@media only screen and (min-width: 1440px) {
+   .container {
+      max-width: 1304px;
    }
 }
