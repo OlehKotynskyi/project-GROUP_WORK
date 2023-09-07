@@ -1,0 +1,24 @@
+.header-nav {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.js-open-menu {
+  background: transparent;
+}
+.singup-link {
+  background-color: var(--black-light);
+  display: block;
+  height: 32px;
+  width: 32px;
+  padding: 8px;
+  border-radius: 50%;
+}
+.singup-icon {
+  fill: var(--brown);
+  fill-opacity: 0.4;
+}
+@media (max-width: 375px) {
+  .singup-title {
+    display: none;
+  }
+}
