@@ -1,0 +1,68 @@
+:root {
+   --black: #121212;
+   --black-light: #1D1D1D;
+   --black-gradient: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+   --brown: #BEA69E;
+   --white: #FFFF;
+}
+
+body {
+   font-family: "DM Sans", sans-serif;
+   font-weight: 400;
+   background-color: var(--black);
+   color: var(--white);
+}
+
+.text {
+   font-size: 14px;
+   line-height: 1.28;
+   letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+   .text {
+      font-size: 16px;
+      line-height: 1.25;
+   }
+}
+
+.titel {
+   font-size: 28px;
+   font-weight: 500;
+   line-height: 1.14;
+   letter-spacing: -0.04em;
+}
+
+.titel span {
+   color: #BEA69E;
+}
+
+@media only screen and (min-width: 768px) {
+   .titel {
+      font-size: 48px;
+      line-height: 1.13;
+   }
+}
+
+.sub-titel {
+   font-size: 28px;
+   font-weight: 500;
+   line-height: 1.14;
+}
+
+.link-nav {
+   font-size: 14px;
+   font-weight: 400;
+   text-transform: uppercase;
+   transition: color 3s ease;
+}
+
+.link-nav:focus {
+   color: var(--brown);
+}
+
+@media (hover:hover) {
+   .link-nav:hover {
+      color: var(--brown);
+   }
+}
