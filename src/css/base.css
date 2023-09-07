@@ -14,6 +14,8 @@ body {
    color: var(--white);
 }
 
+/* Стилі для деяких базових блоків з текстом */
+
 .text {
    font-size: 14px;
    line-height: 1.28;
@@ -26,6 +28,8 @@ body {
       line-height: 1.25;
    }
 }
+
+/* Загальні заголовки по сторінці зі спаном */
 
 .titel {
    font-size: 28px;
@@ -45,11 +49,15 @@ body {
    }
 }
 
+/* Загальні заголовки в деяких блоках з картками */
+
 .sub-titel {
    font-size: 28px;
    font-weight: 500;
    line-height: 1.14;
 }
+
+/* Загалні стилі посилань навігації хедера і футера */
 
 .link-nav {
    font-size: 14px;
@@ -67,6 +75,8 @@ body {
       color: var(--brown);
    }
 }
+
+/* Відступи блоків секцій на сторінці */
 
 .section {
    padding-top: 40px;
@@ -86,6 +96,8 @@ body {
       padding-bottom: 75px;
    }
 }
+
+/* Загальний контейнер */
 
 .container {
    min-width: 320px;
