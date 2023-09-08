@@ -12,7 +12,6 @@
     background-image: url(../img/hero/background-mob@2x.png);
   }
 }
-
 .hero .container {
   border-radius: 30px;
   background-color: var(--black-light);
@@ -195,9 +194,7 @@
   /* ============================================= */
   /* ================== HERO IMAGE  ============= */
   .hero-image-container {
-    position: relative;
-    left: 50%;
-    transform: translateX(-38%);
+    justify-content: flex-end;
   }
   .hero-image {
     width: 393px;
@@ -220,7 +217,7 @@
   }
 
   .hero .container {
-    max-width: 1216px;
+    max-width: 1080px;
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
@@ -241,9 +238,6 @@
     width: 397px;
     margin: 0;
   }
-  .hero-image-container {
-    left: 10%;
-  }
 }
 @media only screen and (max-width: 1439px) and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -260,6 +254,7 @@
   }
   .hero .container {
     max-width: 1240px;
+    padding-right: 100px;
   }
 }
 @media only screen and (min-width: 1440px) and (min-device-pixel-ratio: 2),
