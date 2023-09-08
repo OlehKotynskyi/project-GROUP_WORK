@@ -40,9 +40,12 @@
 /* ===================================================== */
 /* =========  UnderTitle Text ========================== */
 .hero-text {
-  max-width: 450px;
+  max-width: 295px;
   color: var(--white);
   margin-bottom: 40px;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
 }
 /* ===================================================== */
 /* =========== HERO REVIEWS ============================== */
@@ -147,10 +150,13 @@
   .hero-title {
     font-size: 60px;
     line-height: 1.07;
+    letter-spacing: -0.04em;
     max-width: 517px;
     padding-right: 20px;
   }
-
+  .hero-text {
+    max-width: 418px;
+  }
   /*========== HERO REVIEW BOX =============*/
   .hero-review-image {
     width: 54px;
@@ -222,9 +228,10 @@
     padding-right: 50px;
   }
   .hero-title {
-    max-width: 550px;
-    padding-right: 0;
+    max-width: 563px;
+    padding-right: 25px;
     font-size: 64px;
+    line-height: 1.06;
   }
   .hero-text {
     margin-bottom: 136px;
