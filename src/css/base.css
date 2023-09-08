@@ -5,8 +5,12 @@
    --brown: #BEA69E;
    --white: #FFFF;
    --animation: 3s ease;
+
+   /* Плавний скролл сторінки */
+   scroll-behavior: smooth;
 }
 
+/* Загальні стилі */
 body {
    font-family: "DM Sans", sans-serif;
    font-weight: 400;
