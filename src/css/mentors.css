@@ -24,18 +24,12 @@ img {
 }
 
 /* ======mentors-section=============== */
-.mentors-section {
-  background-color: black;
+.our-mentors {
+  /*background-color: var(--black);*/
 }
 
 .mentors-section-title {
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 28px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: -1.12px;
   text-transform: capitalize;
   text-align: left;
 
@@ -47,7 +41,7 @@ img {
 }
 
 .mentors-span {
-  color: #bea69e;
+  color: var(--brown);
 }
 
 .mentors-section-list {
@@ -66,8 +60,6 @@ img {
 
 @media only screen and (min-width: 768px) {
   .mentors-section-title {
-    font-size: 48px;
-    line-height: 1.13;
     letter-spacing: -1.92px;
     padding-left: 32px;
   }
