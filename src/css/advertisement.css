@@ -27,7 +27,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .strip-section .container {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -37,7 +37,7 @@
     line-height: 1.25;
   }
 }
-@media screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   .running-strip {
     font-size: 59px;
     line-height: 1.08;

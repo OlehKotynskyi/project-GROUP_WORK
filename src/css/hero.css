@@ -5,9 +5,9 @@
   padding-bottom: 80px;
   background-image: url(../img/hero/background-mob.png);
 }
-@media (min-device-pixel-ratio: 2),
+@media only screen and (max-width: 767px) and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
-  (min-resolution: 2dppx) and (max-width: 767px) {
+  (min-resolution: 2dppx) {
   .hero {
     background-image: url(../img/hero/background-mob@2x.png);
   }
@@ -134,7 +134,7 @@
 }
 /* ======================================================= */
 /*==================== FOR TABLETS FROM 768PX  ============*/
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .hero {
     padding-top: 40px;
     padding-bottom: 100px;
@@ -197,16 +197,16 @@
     width: 393px;
   }
 }
-@media (min-device-pixel-ratio: 2),
+@media only screen and (max-width: 1279px) and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
-  (min-resolution: 2dppx) and (max-width: 1279px) {
+  (min-resolution: 2dppx) {
   .hero {
     background-image: url(../img/hero/background-tablet@2x.png);
   }
 }
 /* ============================================================================== */
 /*================ FOR DESKTOP 1280PX TILL 1440PX  ==============================*/
-@media screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   .hero {
     padding-top: 80px;
     padding-bottom: 150px;
@@ -238,16 +238,16 @@
     left: 10%;
   }
 }
-@media (min-device-pixel-ratio: 2),
+@media only screen and (max-width: 1439px) and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
-  (min-resolution: 2dppx) and (max-width: 1439px) {
+  (min-resolution: 2dppx) {
   .hero {
     background-image: url(../img/hero/background-desktop@2x.png);
   }
 }
 /* ========================================================================= */
 /*=========================== FOR DESKTOP MORE THAN 1440PX  =================*/
-@media screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
   .hero {
     background-image: url(../img/hero/background-max.png);
   }
@@ -255,9 +255,9 @@
     max-width: 1240px;
   }
 }
-@media (min-device-pixel-ratio: 2),
+@media only screen and (min-width: 1440px) and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
-  (min-resolution: 2dppx) and (min-width: 1440px) {
+  (min-resolution: 2dppx) {
   .hero {
     background-image: url(../img/hero/background-max@2x.png);
   }
