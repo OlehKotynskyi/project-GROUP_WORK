@@ -1,0 +1,46 @@
+.footer {
+  background-color: var(
+    --black-light
+  ); /* тимчасовий колір  фону через поломані фонові картинки */
+}
+
+.footer-box {
+}
+.footer-info {
+}
+.logo-link {
+}
+.logo-icon {
+}
+.footer-number-link {
+}
+.footer-info-contacts {
+}
+.footer-nav {
+}
+.footer-nav-list {
+}
+.footer-nav-link {
+  /* перегляну доцільність цього класу */
+}
+.footer-form {
+}
+.contact-form {
+}
+.contact-label {
+}
+.contact-input {
+}
+.input {
+  /* перегляну доцільність цього загального класу */
+}
+.contact-btn {
+}
+.footer-credentials {
+}
+.footer-credentials-container {
+}
+.footer-privacy-link {
+}
+.footer-copyright {
+}
