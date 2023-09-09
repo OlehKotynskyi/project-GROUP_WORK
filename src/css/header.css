@@ -8,6 +8,13 @@
   align-items: center;
   justify-content: space-between;
 }
+.header-logo-link {
+  height: 16px;
+}
+.header-nav-list {
+  display: flex;
+  gap: 28px;
+}
 .header-button-container {
   display: flex;
   gap: 12px;
@@ -57,12 +64,10 @@
     transform: translateY(-50%);
   }
   .header-singup-title {
-    color: #121212;
-    font-family: DM Sans;
+    color: var(--black);
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 28px; /* 155.556% */
     text-transform: uppercase;
   }
   .header-nav-icon {
@@ -73,5 +78,23 @@
 @media (max-width: 1279px) {
   .header-nav-list {
     display: none;
+  }
+}
+@media (min-width: 1280px) {
+  .header-nav {
+    padding: 0 50px;
+    margin-right: 258px;
+  }
+  .header-nav-button {
+    display: none;
+  }
+  .header-singup-link {
+    width: 238px;
+    right: -260px;
+  }
+}
+@media (min-width: 1440px) {
+  .header-nav-list {
+    gap: 40px;
   }
 }
