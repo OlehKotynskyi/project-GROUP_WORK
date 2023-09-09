@@ -1,0 +1,276 @@
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
+
+.sign {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.12px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .sign {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
+
+.signin {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-pic {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+}
+
+.up {
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.12px;
+}
+
+@media screen and (min-width: 768px) {
+  .up {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
+
+.p {
+  font-family: DM Sans;
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  margin-bottom: 41px;
+}
+
+@media screen and (min-width: 768px) {
+  .p {
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
+
+.sign-up {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signing {
+}
+
+.send-button {
+  border-radius: 12px;
+  background: var(--white, #fff);
+  display: flex;
+  width: 100%;
+  padding: 14px 127px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-bottom: 20px;
+  color: var(--black, #121212);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+@media screen and (min-width: 768px) {
+  .send-button {
+    width: 100%;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
+
+.send-button:hover,
+.send-button:focus {
+  background-color: #1d1d1d;
+  color: #bea69e;
+}
+
+.input-sign {
+  height: 46.308px;
+  width: 100%;
+  background: transparent;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  transition: border 0.3s ease;
+  padding: 0 20px;
+  font-family: DM Sans;
+  font-size: 14px;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .input-sign,
+  .area {
+    width: 100%;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
+
+.input-sign:focus {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.area {
+  color: #fff;
+  height: 112px;
+  flex-shrink: 0;
+  margin-bottom: 40px;
+  resize: none;
+  padding-top: 20px;
+  padding-left: 18px;
+}
+
+.accept {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  font-family: DM Sans;
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
+
+@media screen and (min-width: 768px) {
+  .accept,
+  .privacy {
+    line-height: 18px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
+
+.privacy {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration-line: underline;
+  font-family: DM Sans;
+}
+
+.form-sign {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sign-pic {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .sign-pic {
+    display: flex;
+    width: 540px;
+    height: 540px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .sign-pic {
+    display: flex;
+    width: 560px;
+    height: 540px;
+  }
+}
+
+.pic-left {
+  width: 180px;
+  height: 288px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #bea69e;
+}
+
+.pic-right {
+  width: 350px;
+  height: 540px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #1d1d1d;
+}
+
+.lens-img {
+  margin: auto;
+  margin-top: 76px;
+}
+
+.camera-img {
+  margin: auto;
+  margin-top: 156px;
+}

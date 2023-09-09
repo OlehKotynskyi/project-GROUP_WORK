@@ -1,5 +1,98 @@
 <section class="section">
-   <div class="container">
+  <div class="container signin">
+    <div class="sign-up">
+      <h2 class="sign">Sign <span class="up">Up</span></h2>
+      <p class="p">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <div class="form-sign-container">
+        <form class="form-sign">
+          <div class="name">
+            <input
+              name="name"
+              type="text"
+              class="input-sign"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="email">
+            <input
+              name="email"
+              class="input-sign"
+              placeholder="Enter your email"
+              type="email"
+            />
+          </div>
+          <div class="message">
+            <textarea
+              name="text_area"
+              class="input-sign area"
+              placeholder="Message"
+              id=""
+              cols="21"
+              rows="4"
+            ></textarea>
+          </div>
+          <div class="button-container">
+            <button class="send-button" type="submit">Send</button>
+          </div>
+          <p class="accept">
+            By clicking on “Send” button, you agree to our
+            <span class="privacy">Privacy Policy</span>, and allow Promodo to
+            use this information for marketing purposes.
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="sign-pic">
+      <div class="pic-left">
+        <picture>
+          <!-- Desktop screen  -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="../img/sign/lens-min.png 1x, ../img/sign/lens-min@2x.png 2x"
+          />
+          <!-- Tablet screen -->
+          <source
+            media="(min-width: 1440px)"
+            srcset="../img/sign/lens.png 1x, ../img/sign/lens@2x 2x"
+          />
 
-   </div>
+          <img
+            src="../img/sign/lens@2x.png"
+            alt=""
+            width="163"
+            height="154"
+            class="lens-img"
+          />
+        </picture>
+      </div>
+      <div class="pic-right">
+        <picture>
+          <!-- Desktop screen  -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/sign/camera-min.png    1x,
+              ../img/sign/camera-min@2x.png 2x
+            "
+          />
+          <!-- Tablet screen -->
+          <source
+            media="(min-width: 1440px)"
+            srcset="../img/sign//camera.png 1x, ../img/sign/lens@2x.png 2x"
+          />
+
+          <img
+            src="../img/sign/lens@2x.png"
+            alt=""
+            width="240"
+            height="296"
+            class="camera-img"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
 </section>
