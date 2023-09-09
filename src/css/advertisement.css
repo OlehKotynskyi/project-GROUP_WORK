@@ -1,0 +1,46 @@
+.strip-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}
+.running-strip {
+  color: var(--white);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  flex-shrink: 0;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: runningStrip;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes runningStrip {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.strip-section .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .strip-section .container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .running-strip {
+    font-size: 40px;
+    line-height: 1.25;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .running-strip {
+    font-size: 59px;
+    line-height: 1.08;
+  }
+}
