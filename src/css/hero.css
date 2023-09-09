@@ -47,8 +47,6 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-}
-.hero-text:not(:last-child) {
   margin-bottom: 40px;
 }
 /* ===================================================== */
