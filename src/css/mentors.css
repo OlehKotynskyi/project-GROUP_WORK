@@ -1,53 +1,13 @@
-.container {
-  max-width: 375px;
-  margin: 80px auto;
-  padding: 0 20px;
-}
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    margin: 100px auto;
-    padding: 0 32px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    margin: 150 auto;
-    padding: 0 100px;
-  }
-}
-
-img {
-  border-radius: 200px;
-  background-color: #e0e0e0;
-}
-
 /* ======mentors-section=============== */
-.our-mentors {
-  /*background-color: var(--black);*/
-}
-
 .mentors-section-title {
-  font-style: normal;
-  text-transform: capitalize;
-  text-align: left;
-
-  min-width: 266px;
-  margin: 0 auto;
-  margin-top: 80px;
   margin-bottom: 40px;
-  padding-left: 20px;
-}
-
-.mentors-span {
-  color: var(--brown);
 }
 
 .mentors-section-list {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  font-style: normal;
   gap: 40px 93px;
   align-items: center;
   justify-content: center;
@@ -60,8 +20,7 @@ img {
 
 @media only screen and (min-width: 768px) {
   .mentors-section-title {
-    letter-spacing: -1.92px;
-    padding-left: 32px;
+    margin-bottom: 50px;
   }
   .mentors-section-list {
     max-width: 474px;
@@ -71,9 +30,6 @@ img {
   }
 }
 @media only screen and (min-width: 1280px) {
-  .mentors-section-title {
-    padding-left: 100px;
-  }
   .mentors-section-list {
     max-width: 1280px;
   }
@@ -82,26 +38,31 @@ img {
   }
 }
 
-.mentor-info {
-  padding: 32px 0;
+.mentor-img {
+  border-radius: 200px;
+  background-color: #e0e0e0;
+  margin-bottom: 16px;
 }
-
 .mentor-name {
-  color: var(--grey);
-  background-color: var(--white);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-  text-align: center;
+  margin-bottom: 4px;
 }
 .mentor-experience {
-  background-color: var(--white);
-  font-weight: 400;
-  color: var(--slate);
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 768px) {
+  .mentor-name {
+    font-size: 28px;
+    line-height: 1.14;
+    margin-bottom: 4px;
+  }
+  .mentor-experience {
+    font-size: 14px;
+    line-height: 1.29;
+  }
 }
