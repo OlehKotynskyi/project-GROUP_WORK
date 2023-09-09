@@ -1,7 +1,16 @@
+/* ======================================================= */
+/*============== FOR MOB FROM 320PX ============*/
 .footer {
-  background-color: var(
-    --black-light
-  ); /* тимчасовий колір  фону через поломані фонові картинки */
+  background-image: url(../img/hero/background-mob.png);
+  background-size: cover;
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (max-width: 767px) and (min-resolution: 192dpi),
+  only screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .footer {
+    background-image: url(../img/hero/background-mob@2x.png);
+  }
 }
 
 .footer-box {
@@ -44,4 +53,55 @@
 .footer-privacy-link {
 }
 .footer-copyright {
+}
+
+/* ======================================================= */
+/*============== FOR TABLETS FROM 768PX  ============*/
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    background-image: url(../img/hero/background-tablet.png);
+  }
+}
+
+@media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-width: 768px) and (min-resolution: 192dpi),
+  only screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .footer {
+    background-image: url(../img/hero/background-tablet@2x.png);
+  }
+}
+
+/* ======================================================= */
+/*============ FOR DESKTOP 1280PX TILL 1440PX ==========*/
+
+@media only screen and (min-width: 1280px) {
+  .footer {
+    background-image: url(../img/hero/background-desktop.png);
+  }
+}
+
+@media only screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  only screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .footer {
+    background-image: url(../img/hero/background-desktop@2x.png);
+  }
+}
+
+/* ======================================================= */
+/*=========== FOR DESKTOP MORE THAN 1440PX  ===============*/
+
+@media only screen and (min-width: 1440px) {
+  .footer {
+    background-image: url(../img/hero/background-max.png);
+  }
+}
+
+@media only screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-width: 1440px) and (min-resolution: 192dpi),
+  only screen and (min-width: 1440px) and (min-resolution: 2dppx) {
+  .footer {
+    background-image: url(../img/hero/background-max@2x.png);
+  }
 }
