@@ -23,7 +23,7 @@
     margin-bottom: 50px;
   }
   .mentors-section-list {
-    max-width: 478px;
+    max-width: 474px;
   }
   .mentors-section-item {
     width: calc((100% - 100px) / 2);
@@ -57,7 +57,7 @@
 .mentor-img {
   border-radius: 200px;
   background-color: #e0e0e0;
-  margin-bottom: 16px;
+  margin-bottom: 0 auto 16px;
 }
 .mentor-name {
   font-size: 20px;
@@ -72,6 +72,9 @@
   letter-spacing: -0.02em;
 }
 @media only screen and (min-width: 768px) {
+  li > div :nth-child(2) {
+    width: 194px;
+  }
   .mentor-name {
     font-size: 28px;
     line-height: 1.14;
