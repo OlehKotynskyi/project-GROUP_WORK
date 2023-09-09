@@ -4,9 +4,13 @@
    --black-gradient: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
    --brown: #BEA69E;
    --white: #FFFF;
-   --animation: 3s ease;
+   --animation: 0.3s ease;
+
+   /* Плавний скролл сторінки */
+   scroll-behavior: smooth;
 }
 
+/* Загальні стилі */
 body {
    font-family: "DM Sans", sans-serif;
    font-weight: 400;
