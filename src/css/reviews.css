@@ -6,7 +6,7 @@
 }
 
 /* Mobile 320px */
-@media (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     .reviews-section .container {
         margin: 0 20px;
         padding: 0;
@@ -14,7 +14,7 @@
 }
 
 /* Tablet */
-@media (min-width: 768px) and (max-width: 1279.8px) {
+@media only screen and (min-width: 768px)  {
     .reviews-section .container {
         max-width: 704px;
         padding: 0;
@@ -22,14 +22,14 @@
 }
 
 /* Desk */
-@media (min-width: 1280px) and (max-width: 1439.8px) {
+@media only screen and (min-width: 1280px) {
     .reviews-section .container {
         max-width: 1080px;
     }
 }
 
 /* Desk 1440px */
-@media (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
     .reviews-section .container {
         margin: 0 auto;
         max-width: 1240px;
@@ -45,7 +45,7 @@
     margin-bottom: 40px;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .reviews-title {
         margin-bottom: 50px;
     }
@@ -53,11 +53,11 @@
 
 .reviews-list {
     display: flex;
-    gap: 20px;
     position: relative;
+    gap: 20px;
 }
 
-@media (max-width: 1279.8px) {
+@media only screen and (max-width: 1279.8px) {
     .reviews-list .reviews-list-item {
         display: none;
     }
@@ -72,21 +72,22 @@
     position: relative;
 }
 
-@media (min-width: 768px) and (max-width: 1279.8px) {
+@media only screen and (min-width: 768px) {
     .reviews-list-item {
         margin: 0 32px;
     }
 }
 
-@media (min-width: 1280px) and (max-width: 1439.8px) {
+@media only screen and (min-width: 1280px) {
     .reviews-list-item {
-        width: 530px;
+        min-width: 530px;
+        margin: 0;
     }
 }
 
-@media (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
     .reviews-list-item {
-        width: 610px;
+        min-width: 610px;
     }
 }
 
@@ -97,7 +98,7 @@
 }
 
 /* Tablet - Desk */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .reviews-person-container {
         margin-bottom: 20px;
     }
@@ -115,7 +116,7 @@
 }
 
 /* Tablet - Desk */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .reviews-person-name {
         line-height: 1.4; /* 140% */
     }
@@ -128,7 +129,7 @@
     letter-spacing: -0.02em;
 }
 /* Tablet - Desk */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .reviews-person-subtitle {
         font-size: 14px;
         line-height: 1.28; /* 128.571% */
@@ -144,7 +145,7 @@
     left: 86px;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .reviews-stars {
         top: 20px;
         right: 20px;
@@ -168,7 +169,7 @@
     position: relative;
 }
 
-@media (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
     .swiper {
         display: none;
     }
@@ -183,7 +184,7 @@
 }
 
 /* Mobile 375 */
-@media (min-width: 375px) and (max-width: 767.8px) {
+@media only screen and (min-width: 375px) {
     .swiper-horizontal > .swiper-pagination-bullets,
     .swiper-pagination-bullets.swiper-pagination-horizontal,
     .swiper-pagination-custom,
@@ -194,7 +195,7 @@
 }
 
 /* Tablet */
-@media (min-width: 768px) and (max-width: 1279.8px) {
+@media (min-width: 768px) {
     .swiper-horizontal > .swiper-pagination-bullets,
     .swiper-pagination-bullets.swiper-pagination-horizontal,
     .swiper-pagination-custom,
@@ -204,7 +205,7 @@
     }
 }
 
-@media (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
     .swiper-horizontal > .swiper-pagination-bullets,
     .swiper-pagination-bullets.swiper-pagination-horizontal,
     .swiper-pagination-custom,
