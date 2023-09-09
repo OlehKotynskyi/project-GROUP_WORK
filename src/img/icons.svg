@@ -13,7 +13,7 @@
     <symbol id="icon-close" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M24 8 8 24M8 8l16 16"/>
     </symbol>
-    <symbol id="icon-menu" viewBox="0 0 46 32">
+    <symbol id="icon-menu" viewBox="0 0 46 22">
       <path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3.429" d="M8.671 5.074H44M8.671 24.468H44m-24.398-9.697H44" style="stroke:var(--color1, #fff)"/>
     </symbol>
     <symbol id="icon-star" viewBox="0 0 32 32">
