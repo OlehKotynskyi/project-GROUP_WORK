@@ -1,10 +1,10 @@
 <footer class="footer" id="contacts">
   <div class="container">
     <div class="footer-box footer-info">
-      <a class="logo-link link" href="../index.html">
+      <a class="logo-link link" href="./index.html">
         <svg class="logo-icon icon" width="123" height="16">
           <!-- UPDATE LOGO SVG SPRITE -->
-          <use href="../img/icons.svg#"></use>
+          <use href="./img/icons.svg#"></use>
         </svg>
       </a>
       <a
@@ -75,6 +75,8 @@
             name="contact-info"
             placeholder="Enter your email"
             id="contact-info"
+            required
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
           />
         </label>
         <button class="contact-btn" type="submit">Go</button>
@@ -83,7 +85,7 @@
 
     <div class="footer-box footer-credentials">
       <div class="footer-credentials-container">
-        <a href="" class="footer-privacy-link link">Privacy Policy </a>
+        <a href="" class="footer-privacy-link link">Privacy Policy</a>
         <a href="" class="footer-privacy-link link"
           >Public Offering Agreement
         </a>
