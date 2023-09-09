@@ -37,7 +37,23 @@
     width: calc((100% - 339px) / 4);
   }
 }
-
+@media only screen and (min-width: 1440px) {
+  .our-mentors {
+    margin-left: 100px;
+    padding-left: 0;
+  }
+  .mentors-section-title {
+    margin-bottom: 50px;
+  }
+  .mentors-section-list {
+    max-width: 1280px;
+    padding-left: 84px;
+    padding-right: 32px;
+  }
+  .mentors-section-item {
+    width: calc((100% - 339px) / 4);
+  }
+}
 .mentor-img {
   border-radius: 200px;
   background-color: #e0e0e0;
