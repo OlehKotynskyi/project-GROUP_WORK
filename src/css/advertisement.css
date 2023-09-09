@@ -18,10 +18,10 @@
 }
 @keyframes runningStrip {
   from {
-    transform: translateX(100%);
+    transform: translateX(150%);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-300%);
   }
 }
 .strip-section .container {
@@ -36,6 +36,14 @@
   .running-strip {
     font-size: 40px;
     line-height: 1.25;
+  }
+  @keyframes runningStrip {
+    from {
+      transform: translateX(150%);
+    }
+    to {
+      transform: translateX(-150%);
+    }
   }
 }
 @media only screen and (min-width: 1280px) {
