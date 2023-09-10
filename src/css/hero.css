@@ -94,6 +94,14 @@
   fill: var(--white);
   transition: fill var(--animation), transform var(--animation);
 }
+.hero-review-link:active .arrow-icon {
+  fill: var(--brown);
+  transform: scale(1.6);
+}
+.hero-review-link:active .hero-reviews-text {
+  color: var(--brown);
+}
+
 @media (hover: hover) {
   .hero-review-link:hover .arrow-icon,
   .hero-review-link:focus .arrow-icon {
