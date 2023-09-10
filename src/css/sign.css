@@ -192,8 +192,9 @@
 
 .lens-img {
   margin-top: 76px;
-  width: 100%;
-  overflow: hidden;
+  margin-left: -20%;
+  width: 202px;
+  max-width: none;
 }
 
 .camera-img {
