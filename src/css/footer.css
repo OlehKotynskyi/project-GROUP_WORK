@@ -17,9 +17,6 @@
   }
 }
 
-.footer-box {
-}
-
 .footer-info {
   display: inline-flex;
   flex-direction: column;
@@ -28,13 +25,6 @@
 
 .logo-link {
   margin-bottom: 20px;
-}
-
-.logo-icon {
-  fill: var(--white);
-}
-
-.footer-number-link {
 }
 
 .footer-info-contacts {
@@ -65,9 +55,6 @@
 
 .footer-form {
   margin-bottom: 40px;
-}
-
-.contact-form {
 }
 
 .contact-label {
@@ -113,9 +100,6 @@
   width: 100%;
 }
 
-.footer-credentials-container {
-}
-
 .footer-privacy-link {
   display: inline-block;
 }
@@ -129,7 +113,6 @@
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0;
-
   text-transform: none;
 }
 
@@ -146,8 +129,6 @@
   .footer .container {
     display: flex;
     flex-wrap: wrap;
-    /* gap: 58px;
-    display: block; */
   }
 
   .footer-box {
