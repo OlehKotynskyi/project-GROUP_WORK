@@ -179,6 +179,11 @@
   .footer-nav {
     gap: 25px;
     margin-right: 59px;
+    margin-bottom: 74px;
+  }
+
+  .footer-form {
+    margin-bottom: 0;
   }
 }
 
@@ -201,10 +206,12 @@
 
   .footer-info {
     margin-right: 285px;
+    margin-bottom: 0;
   }
 
   .footer-nav {
     margin-right: 135px;
+    margin-bottom: 50px;
     gap: 50px;
   }
 
@@ -227,6 +234,15 @@
 @media only screen and (min-width: 1440px) {
   .footer {
     background-image: url(../img/hero/background-max.png);
+  }
+
+  .footer-info {
+    margin-right: 341px;
+  }
+
+  .footer-nav {
+    margin-right: 191px;
+    gap: 100px;
   }
 }
 
