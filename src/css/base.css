@@ -5,8 +5,13 @@
    --brown: #BEA69E;
    --white: #FFFF;
    --animation: 0.3s ease;
+
+   /* Плавний скролл сторінки */
+   scroll-behavior: smooth;
+
 }
 
+/* Загальні стилі */
 body {
    font-family: "DM Sans", sans-serif;
    font-weight: 400;
@@ -31,19 +36,19 @@ body {
 
 /* Загальні заголовки по сторінці зі спаном */
 
-.titel {
+.title {
    font-size: 28px;
    font-weight: 500;
    line-height: 1.14;
    letter-spacing: -0.04em;
 }
 
-.titel span {
+.title span {
    color: #BEA69E;
 }
 
 @media only screen and (min-width: 768px) {
-   .titel {
+   .title {
       font-size: 48px;
       line-height: 1.13;
    }
@@ -51,7 +56,7 @@ body {
 
 /* Загальні заголовки в деяких блоках з картками */
 
-.sub-titel {
+.subtitle {
    font-size: 28px;
    font-weight: 500;
    line-height: 1.14;
