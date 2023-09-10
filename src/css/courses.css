@@ -6,20 +6,19 @@
 
 .our-courses {
   display: flex;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 @media only screen and (min-width: 768px) {
   .our-courses {
-    padding: 100px 0;
+    padding: 50px 0;
   }
 }
 @media only screen and (min-width: 1280px) {
   .our-courses {
     display: block;
-    padding: 150px 0;
+    padding: 75px 0;
   }
 }
-
 .our-courses-container {
   display: flex;
   flex-direction: column;
@@ -60,14 +59,10 @@
 .our-courses-text {
   max-width: 335px;
   min-height: 72px;
-  font-size: 14px;
-  line-height: 1.3;
-  letter-spacing: -0.02em;
 }
 @media only screen and (min-width: 768px) {
   .our-courses-text {
     min-width: 381px;
-    font-size: 16px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -163,12 +158,19 @@
   overflow: hidden;
   width: 32px;
   height: 32px;
-  background-color: #1d1d1d;
+  background-color: var(--black-light);
   transition: all 0.5s ease-in-out;
+  
 }
 .our-courses-link:active {
   background-color: var(--brown);
 }
+@media (hover:hover) {
+  .our-courses-link:hover {
+    background-color: var(--brown);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .our-courses-link {
     top: 32px;
@@ -178,11 +180,12 @@
 @media only screen and (min-width: 1280px) {
   .our-courses-link:hover,
   .our-courses-link:focus {
-    cursor: pointer;
     background-color: var(--brown);
     fill: #ffffff;
+    cursor: pointer;
   }
 }
+
 .our-courses-icon {
   padding: 0 9px;
   fill: #ffffff66;
@@ -209,18 +212,18 @@
     margin-top: 64px;
   }
 }
-.our-courses-descr {
+.our-courses-desc {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.28px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
   width: 100%;
 }
 @media only screen and (min-width: 768px) {
-  .our-courses-descr {
+  .our-courses-desc {
     max-height: 80px;
     font-size: 16px;
     line-height: 1.25;
-    letter-spacing: -0.39px;
+    letter-spacing: -0.02em;
   }
 }
