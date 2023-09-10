@@ -9,7 +9,6 @@
 @media only screen and (max-width: 375px) {
     .reviews-section .container {
         margin: 0 20px;
-        padding: 0;
     }
 }
 
@@ -17,7 +16,6 @@
 @media only screen and (min-width: 768px)  {
     .reviews-section .container {
         max-width: 704px;
-        padding: 0;
     }
 }
 
@@ -195,7 +193,7 @@
 }
 
 /* Tablet */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .swiper-horizontal > .swiper-pagination-bullets,
     .swiper-pagination-bullets.swiper-pagination-horizontal,
     .swiper-pagination-custom,
