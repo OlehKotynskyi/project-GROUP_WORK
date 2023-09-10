@@ -6,15 +6,9 @@
    background-image: url(../img/hero/background-mob.png);
 }
 
-<<<<<<< Updated upstream
 @media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
 only screen and (max-width: 767px) and (min-resolution: 192dpi),
 only screen and (max-width: 767px) and (min-resolution: 2dppx) {
-=======
-@media only screen and (max-width: 767px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
->>>>>>> Stashed changes
    .hero {
       background-image: url(../img/hero/background-mob@2x.png);
    }
@@ -30,7 +24,6 @@ only screen and (max-width: 767px) and (min-resolution: 2dppx) {
    min-width: 280px;
 }
 
-<<<<<<< Updated upstream
 .hero-content-container {
    opacity: 0;
    animation: show 2s forwards;
@@ -49,9 +42,6 @@ only screen and (max-width: 767px) and (min-resolution: 2dppx) {
       transform: translateY(0%);
    }
 }
-
-=======
->>>>>>> Stashed changes
 /* ============================================ */
 /*================ HERO-TITLE ================= */
 .hero-title {
@@ -137,6 +127,12 @@ only screen and (max-width: 767px) and (min-resolution: 2dppx) {
    transition: fill var(--animation), transform var(--animation);
 }
 
+.hero-review-link:active .arrow-icon {
+  fill: var(--brown);
+}
+.hero-review-link:active .hero-reviews-text {
+  color: var(--brown);
+}
 @media (hover: hover) {
 
    .hero-review-link:hover .arrow-icon,
@@ -261,15 +257,9 @@ only screen and (max-width: 767px) and (min-resolution: 2dppx) {
    }
 }
 
-<<<<<<< Updated upstream
 @media only screen and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 2),
 only screen and (max-width: 1279px) and (min-resolution: 192dpi),
 only screen and (max-width: 1279px) and (min-resolution: 2dppx) {
-=======
-@media only screen and (max-width: 1279px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
->>>>>>> Stashed changes
    .hero {
       background-image: url(../img/hero/background-tablet@2x.png);
    }
@@ -307,15 +297,9 @@ only screen and (max-width: 1279px) and (min-resolution: 2dppx) {
    }
 }
 
-<<<<<<< Updated upstream
 @media only screen and (max-width: 1439px) and (-webkit-min-device-pixel-ratio: 2),
 only screen and (max-width: 1439px) and (min-resolution: 192dpi),
 only screen and (max-width: 1439px) and (min-resolution: 2dppx) {
-=======
-@media only screen and (max-width: 1439px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
->>>>>>> Stashed changes
    .hero {
       background-image: url(../img/hero/background-desktop@2x.png);
    }
@@ -332,7 +316,6 @@ only screen and (max-width: 1439px) and (min-resolution: 2dppx) {
       max-width: 1240px;
       padding-right: 100px;
    }
-<<<<<<< Updated upstream
 }
 
 @media only screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2),
@@ -341,25 +324,4 @@ only screen and (min-width: 1440px) and (min-resolution: 2dppx) {
    .hero {
       background-image: url(../img/hero/background-max@2x.png);
    }
-=======
-}
-
-@media only screen and (min-width: 1440px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-   .hero {
-      background-image: url(../img/hero/background-max@2x.png);
-   }
-}
-
-.hero-content-container.element-animation {
-   opacity: 0;
-   transform: translateY(30%);
-   transition: all 1.5s ease;
-}
-
-.element-animation .element-show {
-   opacity: 1;
-   transform: translateY(0%);
->>>>>>> Stashed changes
 }
