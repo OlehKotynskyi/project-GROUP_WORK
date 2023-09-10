@@ -21,6 +21,8 @@
 }
 .header-nav-button {
   background: transparent;
+  display: inline-flex;
+  align-items: center;
 }
 .header-singup-link {
   background-color: var(--black-light);
