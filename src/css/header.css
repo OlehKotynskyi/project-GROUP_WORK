@@ -1,9 +1,18 @@
-.header-container {
+.header {
    position: fixed;
-   left: 50%;
-   transform: translateX(-50%);
+   top: 0;
+   left: 0;
    z-index: 999;
    width: 100%;
+}
+
+.header-container {
+   transition: transform 0.3s ease;
+}
+
+.header-container.hide {
+   transition: transform 0.3s ease;
+   transform: translateY(-150%);
 }
 
 .header-nav {
