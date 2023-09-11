@@ -65,10 +65,6 @@
     line-height: 1.13;
   }
 }
-img {
-  width: 100%;
-  display: block;
-}
 .pic-photograph {
   border-radius: 1000px;
   background: url(../img/about/about-mobi.png);
