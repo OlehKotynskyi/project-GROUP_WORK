@@ -35,14 +35,15 @@
   flex-direction: column;
   gap: 20px;
   min-width: 100%;
-  max-height: 124px;
+  max-height: 100%;
   margin-bottom: 40px;
 }
 @media only screen and (min-width: 768px) {
   .our-courses-box {
     flex-direction: row;
     justify-content: space-between;
-    min-height: 80px;
+    max-height: 80px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -50,10 +51,14 @@
     margin-bottom: 50px;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .our-courses-box {
+    max-height: 60px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .our-courses-title {
     min-width: 265px;
-    height: 60px;
   }
 }
 .our-courses-text {
@@ -63,6 +68,7 @@
 @media only screen and (min-width: 768px) {
   .our-courses-text {
     min-width: 381px;
+    min-height: 80px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -160,12 +166,11 @@
   height: 32px;
   background-color: var(--black-light);
   transition: all 0.5s ease-in-out;
-  
 }
 .our-courses-link:active {
   background-color: var(--brown);
 }
-@media (hover:hover) {
+@media (hover: hover) {
   .our-courses-link:hover {
     background-color: var(--brown);
   }
