@@ -1,102 +1,57 @@
 <section class="section" id="sign">
-  <div class="container signin">
-    <div class="sign-up">
-      <h2 class="title sign-title">Sign <span>Up</span></h2>
-      <p class="text sign-please">
-        Please use the form below to contact us. Enter your name, email, and
-        message and we'll get back to you shortly.
-      </p>
-      <div class="form-sign-container">
-        <form class="form-sign">
-          <div>
-            <input
-              name="name"
-              type="text"
-              pattern="[A-Za-z]{6,}, ^[a-zA-Z]+$"
-              class="input-sign"
-              placeholder="Enter your name"
-            />
-          </div>
-          <div>
-            <input
-              name="email"
-              class="input-sign"
-              placeholder="Enter your email"
-              type="email"
-            />
-          </div>
-          <div>
-            <textarea
-              name="text_area"
-              class="input-sign area"
-              placeholder="Message"
-              cols="21"
-              rows="4"
-            ></textarea>
-          </div>
-          <div>
-            <button class="sign-button" type="submit">Send</button>
-          </div>
-          <p class="text accept">
-            By clicking on &#8243;Send&#8243; button, you agree to our
-            <a href="" class="link privacy">Privacy Policy</a>, and allow
-            Promodo to use this information for marketing purposes.
-          </p>
-        </form>
+   <div class="container signin element-animation">
+      <div class="sign-up">
+         <h2 class="title sign-title">Sign <span>Up</span></h2>
+         <p class="text sign-please">
+            Please use the form below to contact us. Enter your name, email, and
+            message and we'll get back to you shortly.
+         </p>
+         <div class="form-sign-container">
+            <form class="form-sign">
+               <div>
+                  <input name="name" type="text" pattern="[A-Za-z]{6,}, ^[a-zA-Z]+$" class="input-sign" placeholder="Enter your name" />
+               </div>
+               <div>
+                  <input name="email" class="input-sign" placeholder="Enter your email" type="email" />
+               </div>
+               <div>
+                  <textarea name="text_area" class="input-sign area" placeholder="Message" cols="21" rows="4"></textarea>
+               </div>
+               <div>
+                  <button class="sign-button" type="submit">Send</button>
+               </div>
+               <p class="text accept">
+                  By clicking on &#8243;Send&#8243; button, you agree to our
+                  <a href="" class="link privacy">Privacy Policy</a>, and allow
+                  Promodo to use this information for marketing purposes.
+               </p>
+            </form>
+         </div>
       </div>
-    </div>
-    <div class="sign-pictures">
-      <div class="picture-lens">
-        <picture>
-          <!-- 1440px -->
-          <source
-            media="(min-width: 1440px)"
-            srcset="./img/sign/lens.png 1x, ./img/sign/lens@2x.png 2x"
-            type="image/png"
-          />
-          <!-- 1280px  -->
-          <source
-            media="(min-width: 1280px)"
-            srcset="./img/sign/lens-min.png 1x, ./img/sign/lens-min@2x.png 2x"
-            type="image/png"
-          />
+      <div class="sign-pictures">
+         <div class="picture-lens">
+            <picture>
+               <!-- 1440px -->
+               <source media="(min-width: 1440px)" srcset="./img/sign/lens.png 1x, ./img/sign/lens@2x.png 2x" type="image/png" />
+               <!-- 1280px  -->
+               <source media="(min-width: 1280px)" srcset="./img/sign/lens-min.png 1x, ./img/sign/lens-min@2x.png 2x" type="image/png" />
 
-          <img
-            src="./img/sign/lens@2x.png"
-            alt="lens"
-            width="163"
-            height="154"
-            class="lens-img"
-            loading="lazy"
-          />
-        </picture>
-      </div>
-      <div class="picture-camera">
-        <picture>
-          <!-- 1440px -->
-          <source
-            media="(min-width: 1440px)"
-            srcset="./img/sign/camera.png 1x, ./img/sign/camera@2x.png 2x"
-          />
-          <!-- 1280px  -->
-          <source
-            media="(min-width: 1280px)"
-            srcset="
+               <img src="./img/sign/lens@2x.png" alt="lens" width="163" height="154" class="lens-img" loading="lazy" />
+            </picture>
+         </div>
+         <div class="picture-camera">
+            <picture>
+               <!-- 1440px -->
+               <source media="(min-width: 1440px)" srcset="./img/sign/camera.png 1x, ./img/sign/camera@2x.png 2x" />
+               <!-- 1280px  -->
+               <source media="(min-width: 1280px)" srcset="
               ./img/sign/camera-min.png    1x,
               ./img/sign/camera-min@2x.png 2x
-            "
-          />
+            " />
 
-          <img
-            src="./img/sign/camera@2x.png"
-            alt="camera"
-            width="240"
-            height="296"
-            class="camera-img"
-            loading="lazy"
-          />
-        </picture>
+               <img src="./img/sign/camera@2x.png" alt="camera" width="240" height="296" class="camera-img" loading="lazy" />
+            </picture>
+         </div>
       </div>
-    </div>
-  </div>
+   </div>
 </section>
