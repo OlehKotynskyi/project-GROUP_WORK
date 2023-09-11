@@ -42,7 +42,7 @@
 @media (max-height: 639.98px) and (max-width: 767.98px) {
    .mobile-menu {
       background-image: linear-gradient(to bottom, #bea69e, rgba(37, 37, 37, 0.7)),
-         url('./img/mobile-menu/mob-menu-bg_mob.jpg');
+         url('../img/mobile-menu/mob-menu-bg_mob.jpg');
    }
 }
 
@@ -73,19 +73,21 @@ only screen and (max-width: 767.98px) and (max-height: 639.98px) and (min-resolu
   |============================
   | tab 1x
   |============================
-/
+*/
 @media only screen and (min-width: 768px) {
-  .mobile-menu {
-    background-image: url('../img/mobile-menu/mob-menu-bg_tab.jpg');
-  }
+   .mobile-menu {
+      background-image: url('../img/mobile-menu/mob-menu-bg_tab.jpg');
+   }
 }
+
 @media only screen and (max-height: 899.98px) and (min-width: 768px) {
-  .mobile-menu {
-    background-image: linear-gradient(to bottom, #bea69e, rgba(37, 37, 37, 0.7)),
-      url('../img/mobile-menu/mob-menu-bg_tab.jpg');
-  }
+   .mobile-menu {
+      background-image: linear-gradient(to bottom, #bea69e, rgba(37, 37, 37, 0.7)),
+         url('../img/mobile-menu/mob-menu-bg_tab.jpg');
+   }
 }
-/
+
+/*
   |============================
   | tab 2x
   |============================
