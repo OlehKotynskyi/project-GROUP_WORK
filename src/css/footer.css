@@ -31,9 +31,10 @@
   line-height: 1.28;
   letter-spacing: -0.02em;
   font-style: normal;
+  display: block; /* щоб працював нижній маржин */
 }
 
-.footer-info-contacts:first-child {
+.footer-info-contacts:not(:last-child) /* first-child не підходить за умови масштабування цього блоку*/ {
   margin-bottom: 10px;
 }
 
