@@ -159,8 +159,6 @@
     line-height: 1.25;
     max-height: 215px;
     display: flex;
-    position: absolute;
-    top: 30px;
     flex-direction: column;
     gap: 40px;
   }
@@ -181,7 +179,6 @@
   .text-about-us {
     max-width: 330px;
     display: flex;
-
     align-items: flex-start;
     gap: 40px;
   }
