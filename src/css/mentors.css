@@ -44,6 +44,7 @@
 @media only screen and (min-width: 1280px) {
   .mentors-section-list {
     max-width: 1280px;
+    gap: 93px;
   }
 
   .mentors-section-item {
@@ -64,6 +65,7 @@
   .mentors-section-list {
     padding-left: 84px;
     padding-right: 32px;
+    gap: 113px;
   }
 
   .mentors-section-item {
