@@ -1,0 +1,188 @@
+/*About Us section*/
+
+.about .section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+}
+
+@media only screen and (min-width: 768px) {
+  .about .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about .section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  }
+}
+
+.about {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .about {
+    gap: 50px;
+  }
+}
+.title-about {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+.title-us {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  color: #bea69e;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+@media only screen and (min-width: 768px) {
+  .title-about {
+    font-size: 48px;
+    line-height: 1.13;
+  }
+  .title-us {
+    color: #bea69e;
+    font-size: 48px;
+    line-height: 1.13;
+  }
+}
+img {
+  width: 100%;
+  display: block;
+}
+.pic-photograph {
+  border-radius: 1000px;
+  background: url(../img/about/about-mobi.png);
+  background-repeat: no-repeat;
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .pic-photograph {
+    background: url(../img/about/about-mobi@2x.png);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .pic-photograph {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    background: url(../img/about/about-tablet.png);
+  }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .pic-photograph {
+    background: url(../img/about/about-tablet@2x.png);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .pic-photograph {
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background: url(../img/about/about-min.png);
+  }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .pic-photograph {
+    background: url(../img/about/about-min@2x.png);
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .pic-photograph {
+    width: auto;
+    height: auto;
+    background: url(../img/about/about.png);
+  }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .pic-photograph {
+    background: url(../img/about/about@2x.png);
+  }
+}
+
+.text-about-us {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  display: flex;
+  align-items: flex-start;
+}
+.text-about {
+  max-width: 335px;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  display: flex;
+}
+@media only screen and (min-width: 768px) {
+  .text-about-us {
+    font-size: 16px;
+    line-height: 1.25;
+    color: #ffffff;
+    max-width: 280px;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .text-about {
+    max-height: 215px;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .text-about-us {
+    max-width: 268px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .text-about-us {
+    max-width: 264px;
+    max-height: 215px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .text-about-us {
+    max-width: 330px;
+    display: flex;
+
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .text-about {
+    max-width: 276px;
+    max-height: 215px;
+  }
+}
