@@ -6,8 +6,10 @@
   --white: #ffff;
   --animation: 0.3s ease;
 
+
   /* Плавний скролл сторінки */
   scroll-behavior: smooth;
+
 }
 
 /* Загальні стилі */
@@ -126,7 +128,26 @@ body {
 }
 
 @media only screen and (min-width: 1440px) {
+
   .container {
     max-width: 1304px;
   }
 }
+
+   .container {
+      max-width: 1304px;
+   }
+}
+
+
+.element-animation {
+   opacity: 0;
+   transform: translateY(10%);
+}
+
+.element-animation.element-show {
+   opacity: 1;
+   transform: translateY(0%);
+   transition: all 1s ease-in-out;
+}
+
