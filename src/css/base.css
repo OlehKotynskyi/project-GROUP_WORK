@@ -1,132 +1,139 @@
 :root {
-   --black: #121212;
-   --black-light: #1D1D1D;
-   --black-gradient: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
-   --brown: #BEA69E;
-   --white: #FFFF;
-   --animation: 0.3s ease;
+  --black: #121212;
+  --black-light: #1d1d1d;
+  --black-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  --brown: #bea69e;
+  --white: #ffff;
+  --animation: 0.3s ease;
 
-   /* Плавний скролл сторінки */
-   scroll-behavior: smooth;
+
+  /* Плавний скролл сторінки */
+  scroll-behavior: smooth;
 
 }
 
 /* Загальні стилі */
 body {
-   font-family: "DM Sans", sans-serif;
-   font-weight: 400;
-   background-color: var(--black);
-   color: var(--white);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 /* Стилі для деяких базових блоків з текстом */
 
 .text {
-   font-size: 14px;
-   line-height: 1.28;
-   letter-spacing: -0.02em;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
 }
 
 @media only screen and (min-width: 768px) {
-   .text {
-      font-size: 16px;
-      line-height: 1.25;
-   }
+  .text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 /* Загальні заголовки по сторінці зі спаном */
 
 .title {
-   font-size: 28px;
-   font-weight: 500;
-   line-height: 1.14;
-   letter-spacing: -0.04em;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
 }
 
 .title span {
-   color: #BEA69E;
+  color: #bea69e;
 }
 
 @media only screen and (min-width: 768px) {
-   .title {
-      font-size: 48px;
-      line-height: 1.13;
-   }
+  .title {
+    font-size: 48px;
+    line-height: 1.13;
+  }
 }
 
 /* Загальні заголовки в деяких блоках з картками */
 
 .subtitle {
-   font-size: 28px;
-   font-weight: 500;
-   line-height: 1.14;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
 }
 
 /* Загалні стилі посилань навігації хедера і футера */
 
 .link-nav {
-   font-size: 14px;
-   font-weight: 400;
-   text-transform: uppercase;
-   transition: color var(--animation);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: color var(--animation);
 }
 
 .link-nav:focus {
-   color: var(--brown);
+  color: var(--brown);
 }
 
-@media (hover:hover) {
-   .link-nav:hover {
-      color: var(--brown);
-   }
+@media (hover: hover) {
+  .link-nav:hover {
+    color: var(--brown);
+  }
 }
 
 /* Відступи блоків секцій на сторінці */
 
 .section {
-   padding-top: 40px;
-   padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-   .section {
-      padding-top: 50px;
-      padding-bottom: 50px;
-   }
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-   .section {
-      padding-top: 75px;
-      padding-bottom: 75px;
-   }
+  .section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
 }
 
 /* Загальний контейнер */
 
 .container {
-   min-width: 320px;
-   max-width: 415px;
-   margin: 0 auto;
-   padding-right: 20px;
-   padding-left: 20px;
+  min-width: 320px;
+  max-width: 415px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-   .container {
-      max-width: 768px;
-      padding-right: 32px;
-      padding-left: 32px;
-   }
+  .container {
+    max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-   .container {
-      max-width: 1144px;
-   }
+  .container {
+    max-width: 1144px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
+
+  .container {
+    max-width: 1304px;
+  }
+}
+
    .container {
       max-width: 1304px;
    }
@@ -143,3 +150,4 @@ body {
    transform: translateY(0%);
    transition: all 1s ease-in-out;
 }
+
