@@ -1,7 +1,26 @@
+.signin {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 768px) {
   .signin {
-    display: flex;
+    justify-content: start;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .signin {
     justify-content: space-between;
+    padding: 0;
+    max-width: 1080px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .signin {
+    justify-content: space-between;
+    max-width: 1240px;
   }
 }
 
@@ -54,12 +73,6 @@
   }
 }
 
-.sign-button:hover,
-.sign-button:focus {
-  background-color: #1d1d1d;
-  color: #bea69e;
-}
-
 .sign-button:active {
   background-color: #1d1d1d;
   color: #bea69e;
@@ -89,12 +102,6 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
-}
-
-@media screen and (min-width: 1440px) {
-}
-
 .input-sign:focus {
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
@@ -121,28 +128,12 @@
   line-height: 1em;
   width: 100%;
 }
-
-@media screen and (min-width: 1200px) {
-}
-
-@media screen and (min-width: 1200px) {
-}
-
-@media screen and (min-width: 1440px) {
-}
-
 @media screen and (min-width: 768px) {
   .accept,
   .privacy {
     line-height: 1.125em;
     font-size: 14px;
   }
-}
-
-@media screen and (min-width: 1200px) {
-}
-
-@media screen and (min-width: 1440px) {
 }
 
 .privacy {
@@ -207,4 +198,15 @@
 .camera-img {
   margin: auto;
   margin-top: 156px;
+  width: 240px;
+  height: 296px;
+}
+
+@media screen and (min-width: 1440px) {
+  .camera-img {
+    margin: auto;
+    margin-top: 139px;
+    width: 254px;
+    height: 313px;
+  }
 }
