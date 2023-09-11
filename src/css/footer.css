@@ -33,7 +33,7 @@
   font-style: normal;
 }
 
-.footer-info-contacts:not(:last-child) {
+.footer-info-contacts:first-child {
   margin-bottom: 10px;
 }
 
@@ -83,17 +83,21 @@
   text-align: center;
   font-size: 20px;
   line-height: 1.2;
-
   background-color: var(--black-light);
   border-radius: 14px;
   padding: 18px 17px 18px 16px;
-
-  transition: opacity var(--animation), color var(--animation);
+  transition: background-color var(--animation), color var(--animation);
 }
-
 .contact-btn:active {
-  opacity: 0.7;
-  color: var(--brown);
+  background-color: var(--white);
+  color: var(--black-light);
+}
+@media (hover: hover) {
+  .contact-btn:hover,
+  .contact-btn:focus {
+    background-color: var(--white);
+    color: var(--black-light);
+  }
 }
 
 .footer-credentials {
