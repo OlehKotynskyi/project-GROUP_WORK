@@ -65,13 +65,11 @@
     line-height: 1.13;
   }
 }
-img {
-  width: 100%;
-  display: block;
-}
+
 .pic-photograph {
   border-radius: 1000px;
-  background: url(../img/about/about-mobi.png);
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%),
+    url(../img/about/about-mobi.png);
   background-repeat: no-repeat;
 }
 @media screen and (min-device-pixel-ratio: 2),
@@ -84,11 +82,10 @@ img {
 
 @media only screen and (min-width: 768px) {
   .pic-photograph {
-    max-width: 100%;
     width: auto;
     height: auto;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background: url(../img/about/about-tablet.png);
   }
 }
@@ -149,7 +146,6 @@ img {
     font-size: 16px;
     line-height: 1.25;
     color: #ffffff;
-    max-width: 280px;
     display: flex;
     align-items: flex-start;
     gap: 40px;
@@ -168,7 +164,7 @@ img {
     align-items: flex-start;
     gap: 20px;
   }
-  .text-about-us {
+  .text-about {
     max-width: 264px;
     max-height: 215px;
   }
