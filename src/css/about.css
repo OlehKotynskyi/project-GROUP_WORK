@@ -133,6 +133,7 @@
   color: var(--white);
   display: flex;
   align-items: flex-start;
+  max-width: 280px;
 }
 .text-about {
   max-width: 335px;
@@ -140,6 +141,7 @@
   line-height: 1.28;
   letter-spacing: -0.02em;
   display: flex;
+  align-items: flex-start;
 }
 @media only screen and (min-width: 768px) {
   .text-about-us {
@@ -149,10 +151,15 @@
     display: flex;
     align-items: flex-start;
     gap: 40px;
+    max-width: 280px;
   }
   .text-about {
+    font-size: 16px;
+    line-height: 1.25;
     max-height: 215px;
     display: flex;
+    position: relative;
+    top: 30px;
     align-items: flex-start;
     gap: 40px;
   }
