@@ -1,0 +1,241 @@
+/* ======================================================= */
+/*============== FOR MOB FROM 320PX ============*/
+.footer {
+  background-image: url(../img/hero/background-mob.png);
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (max-width: 767px) and (min-resolution: 192dpi),
+  only screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .footer {
+    background-image: url(../img/hero/background-mob@2x.png);
+  }
+}
+
+.footer-info {
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.logo-link {
+  margin-bottom: 20px;
+}
+
+.footer-info-contacts {
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  font-style: normal;
+}
+
+.footer-info-contacts:first-child {
+  margin-bottom: 10px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 75px;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-form {
+  margin-bottom: 40px;
+}
+.contact-label {
+  width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.contact-input {
+  width: 100%;
+  padding: 20px 18px;
+  border-radius: 14px;
+  border: none;
+  outline: none;
+
+  color: var(--black);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+.contact-btn {
+  width: 60px;
+  height: 60px;
+  color: var(--white);
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+  background-color: var(--black-light);
+  border-radius: 14px;
+  padding: 18px 17px 18px 16px;
+  transition: background-color var(--animation), color var(--animation);
+}
+.contact-btn:active {
+  background-color: var(--white);
+  color: var(--black-light);
+}
+@media (hover: hover) {
+  .contact-btn:hover,
+  .contact-btn:focus {
+    background-color: var(--white);
+    color: var(--black-light);
+  }
+}
+
+.footer-credentials {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+.footer-credentials-container {
+  display: flex;
+  flex-direction: column;
+}
+.footer-privacy-link {
+  text-transform: none;
+}
+.footer-copyright {
+  width: 116px;
+}
+.footer-credentials .footer-privacy-link,
+.footer-credentials .footer-copyright {
+  font-size: 12px;
+  line-height: 1.33;
+}
+
+/* ======================================================= */
+/*============== FOR TABLETS FROM 768PX  ============*/
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    background-image: url(../img/hero/background-tablet.png);
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+
+  .footer .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logo-link {
+    margin-bottom: 25px;
+  }
+
+  .contact-input {
+    max-width: 178px;
+  }
+
+  .footer-info {
+    margin-right: 58px;
+  }
+
+  .footer-copyright {
+    width: 134px;
+  }
+
+  .footer-credentials .footer-privacy-link,
+  .footer-credentials .footer-copyright {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+
+  .footer-nav {
+    gap: 25px;
+    margin-right: auto;
+    margin-bottom: 74px;
+  }
+
+  .footer-form {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-width: 768px) and (min-resolution: 192dpi),
+  only screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .footer {
+    background-image: url(../img/hero/background-tablet@2x.png);
+  }
+}
+
+/* ======================================================= */
+/*============ FOR DESKTOP 1280PX TILL 1440PX ==========*/
+
+@media only screen and (min-width: 1280px) {
+  .footer {
+    background-image: url(../img/hero/background-desktop.png);
+    padding: 50px 68px 25px;
+  }
+
+  .footer-info {
+    margin-right: 285px;
+    margin-bottom: 0;
+  }
+  .contact-form {
+    column-gap: 16px;
+  }
+  .footer-nav-list {
+    row-gap: 20px;
+  }
+
+  .footer-nav {
+    margin-bottom: 50px;
+    gap: 50px;
+  }
+
+  .contact-input {
+    max-width: 216px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  only screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .footer {
+    background-image: url(../img/hero/background-desktop@2x.png);
+  }
+}
+
+/* ======================================================= */
+/*=========== FOR DESKTOP MORE THAN 1440PX  ===============*/
+
+@media only screen and (min-width: 1440px) {
+  .footer {
+    background-image: url(../img/hero/background-max.png);
+  }
+
+  .footer-info {
+    margin-right: 341px;
+  }
+
+  .footer-nav {
+    gap: 100px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-width: 1440px) and (min-resolution: 192dpi),
+  only screen and (min-width: 1440px) and (min-resolution: 2dppx) {
+  .footer {
+    background-image: url(../img/hero/background-max@2x.png);
+  }
+}

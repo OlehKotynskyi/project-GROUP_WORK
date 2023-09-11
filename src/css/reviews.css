@@ -1,0 +1,226 @@
+/* General */
+.reviews-section .container {
+   min-width: 280px;
+   max-width: 335px;
+   padding: 0;
+}
+
+/* Mobile 320px */
+@media only screen and (max-width: 375px) {
+   .reviews-section .container {
+      margin: 0 20px;
+   }
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+   .reviews-section .container {
+      max-width: 704px;
+   }
+}
+
+/* Desk */
+@media only screen and (min-width: 1280px) {
+   .reviews-section .container {
+      max-width: 1080px;
+   }
+}
+
+/* Desk 1440px */
+@media only screen and (min-width: 1440px) {
+   .reviews-section .container {
+      margin: 0 auto;
+      max-width: 1240px;
+   }
+}
+
+/**
+  |============================
+  | Reviews section
+  |============================
+*/
+.reviews-title {
+   margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+   .reviews-title {
+      margin-bottom: 50px;
+   }
+}
+
+.reviews-list {
+   display: flex;
+   position: relative;
+   gap: 20px;
+}
+
+@media only screen and (max-width: 1279.8px) {
+   .reviews-list .reviews-list-item {
+      display: none;
+   }
+}
+
+.reviews-list-item {
+   border-radius: 12px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+
+   padding: 20px;
+
+   position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+   .reviews-list-item {
+      margin: 0 32px;
+   }
+}
+
+@media only screen and (min-width: 1280px) {
+   .reviews-list-item {
+      min-width: 530px;
+      margin: 0;
+   }
+}
+
+@media only screen and (min-width: 1440px) {
+   .reviews-list-item {
+      min-width: 610px;
+   }
+}
+
+.reviews-person-container {
+   display: flex;
+   gap: 10px;
+   margin-bottom: 40px;
+}
+
+/* Tablet - Desk */
+@media only screen and (min-width: 768px) {
+   .reviews-person-container {
+      margin-bottom: 20px;
+   }
+}
+
+.reviews-person-img {
+   border-radius: 100px;
+}
+
+.reviews-person-name {
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.2;
+   /* 120% */
+   margin-bottom: 4px;
+}
+
+/* Tablet - Desk */
+@media only screen and (min-width: 768px) {
+   .reviews-person-name {
+      line-height: 1.4;
+      /* 140% */
+   }
+}
+
+.reviews-person-subtitle {
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 12px;
+   line-height: 1.33;
+   /* 133.333% */
+   letter-spacing: -0.02em;
+}
+
+/* Tablet - Desk */
+@media only screen and (min-width: 768px) {
+   .reviews-person-subtitle {
+      font-size: 14px;
+      line-height: 1.28;
+      /* 128.571% */
+   }
+}
+
+.reviews-stars {
+   position: absolute;
+   display: flex;
+   gap: 4px;
+
+   top: 80px;
+   left: 86px;
+}
+
+@media only screen and (min-width: 768px) {
+   .reviews-stars {
+      top: 20px;
+      right: 20px;
+      left: auto;
+   }
+}
+
+.reviews-stars svg {
+   fill: rgb(190, 166, 158);
+   stroke: rgb(190, 166, 158);
+}
+
+.reviews-stars svg:last-child {
+   fill: rgb(65, 65, 65);
+   stroke: rgb(65, 65, 65);
+}
+
+
+/* Swiper */
+.swiper {
+   position: relative;
+}
+
+@media only screen and (min-width: 1280px) {
+   .swiper {
+      display: none;
+   }
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+   position: absolute;
+   bottom: -304px;
+}
+
+/* Mobile 375 */
+@media only screen and (min-width: 375px) {
+
+   .swiper-horizontal > .swiper-pagination-bullets,
+   .swiper-pagination-bullets.swiper-pagination-horizontal,
+   .swiper-pagination-custom,
+   .swiper-pagination-fraction {
+      position: absolute;
+      bottom: -284px;
+   }
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+
+   .swiper-horizontal > .swiper-pagination-bullets,
+   .swiper-pagination-bullets.swiper-pagination-horizontal,
+   .swiper-pagination-custom,
+   .swiper-pagination-fraction {
+      position: absolute;
+      bottom: -220px;
+   }
+}
+
+@media only screen and (min-width: 1280px) {
+
+   .swiper-horizontal > .swiper-pagination-bullets,
+   .swiper-pagination-bullets.swiper-pagination-horizontal,
+   .swiper-pagination-custom,
+   .swiper-pagination-fraction {
+      display: none;
+   }
+}
+
+/* Desk */
+.swiper-pagination-bullet {
+   background-color: var(--white);
+}
