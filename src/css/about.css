@@ -84,12 +84,12 @@ img {
 
 @media only screen and (min-width: 768px) {
   .pic-photograph {
-    max-width: 340px;
-    width: 100%;
-    height: 100%;
-    border-radius: 1000px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
     background: url(../img/about/about-tablet.png);
-    background-repeat: no-repeat;
   }
 }
 @media screen and (min-device-pixel-ratio: 2),
@@ -101,10 +101,10 @@ img {
 }
 @media only screen and (min-width: 1280px) {
   .pic-photograph {
-    max-width: 340px;
-    border-radius: 1000px;
+    width: auto;
+    height: auto;
+    background-size: cover;
     background: url(../img/about/about-min.png);
-    background-repeat: no-repeat;
   }
 }
 @media screen and (min-device-pixel-ratio: 2),
@@ -116,6 +116,8 @@ img {
 }
 @media only screen and (min-width: 1440px) {
   .pic-photograph {
+    width: auto;
+    height: auto;
     background: url(../img/about/about.png);
   }
 }
@@ -166,7 +168,7 @@ img {
     align-items: flex-start;
     gap: 20px;
   }
-  .text-about {
+  .text-about-us {
     max-width: 264px;
     max-height: 215px;
   }
