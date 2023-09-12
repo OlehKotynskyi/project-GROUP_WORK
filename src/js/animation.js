@@ -5,7 +5,7 @@ function onEntry(entry) {
       }
    });
 }
-let options = { threshold: [0.5] };
+let options = { threshold: [0.2] };
 let observer = new IntersectionObserver(onEntry, options);
 let elements = document.querySelectorAll('.element-animation');
 for (let elm of elements) {
