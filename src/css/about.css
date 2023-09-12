@@ -1,188 +1,97 @@
 /*About Us section*/
-
-.about .section {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-image: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+/* ==============================FOR MOBILE DEVICES ================== */
+.section-about {
+   padding-top: 80px;
 }
 
+.about-us-title {
+   margin-bottom: 40px;
+}
+
+.about-content {
+   max-width: 335px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 40px;
+   /*align-items: center;*/
+   margin: 0 auto;
+}
+
+.about-text-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap: 20px;
+}
+
+/* ============================================================== */
+/*=================== FOR TABLET FROM 768 PX  ===================*/
 @media only screen and (min-width: 768px) {
-  .about .section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-image: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
-  }
+   .section-about {
+      padding-top: 100px;
+
+   }
+
+   .about-content {
+      max-width: 704px;
+      row-gap: 50px;
+   }
+
+   .about-us-title {
+      margin-bottom: 50px;
+   }
+
+   .about-text-container {
+      flex-direction: row;
+      column-gap: 40px;
+      align-items: flex-start;
+   }
+
+   .about-text-container .text {
+      max-width: 280px;
+   }
 }
 
+/* ================================================================== */
+/*========================= FOR DESKTOP FROM 1280PX  =================*/
 @media only screen and (min-width: 1280px) {
-  .about .section {
-    padding-top: 75px;
-    padding-bottom: 75px;
-    background-image: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
-  }
+   .section-about {
+      padding-top: 150px;
+   }
+
+   .about-content {
+      max-width: 1080px;
+   }
+
+   .about-content {
+      width: 100%;
+      flex-direction: row;
+      align-items: center;
+      column-gap: 40px;
+   }
+
+   .about-text-container {
+      column-gap: 20px;
+   }
+
+   .about-text-container .text {
+      max-width: 268px;
+   }
 }
 
-.about {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 40px;
-}
-@media only screen and (min-width: 768px) {
-  .about {
-    gap: 50px;
-  }
-}
-.title-about {
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: -0.04em;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 10px;
-}
-.title-us {
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: -0.04em;
-  color: #bea69e;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 10px;
-}
-@media only screen and (min-width: 768px) {
-  .title-about {
-    font-size: 48px;
-    line-height: 1.13;
-  }
-  .title-us {
-    color: #bea69e;
-    font-size: 48px;
-    line-height: 1.13;
-  }
-}
-img {
-  width: 100%;
-  display: block;
-}
-.pic-photograph {
-  border-radius: 1000px;
-  background: url(../img/about/about-mobi.png);
-  background-repeat: no-repeat;
-}
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .pic-photograph {
-    background: url(../img/about/about-mobi@2x.png);
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .pic-photograph {
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    background-size: cover;
-    background-position: center center;
-    background: url(../img/about/about-tablet.png);
-  }
-}
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .pic-photograph {
-    background: url(../img/about/about-tablet@2x.png);
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .pic-photograph {
-    width: auto;
-    height: auto;
-    background-size: cover;
-    background: url(../img/about/about-min.png);
-  }
-}
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .pic-photograph {
-    background: url(../img/about/about-min@2x.png);
-  }
-}
+/* ======================================================================= */
+/*========================= FOR DESKTOP 1440PX AND MORE  =================*/
 @media only screen and (min-width: 1440px) {
-  .pic-photograph {
-    width: auto;
-    height: auto;
-    background: url(../img/about/about.png);
-  }
-}
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .pic-photograph {
-    background: url(../img/about/about@2x.png);
-  }
-}
+   .about-content {
+      max-width: 1280px;
+      column-gap: 50px;
+   }
 
-.text-about-us {
-  font-size: 14px;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
-  color: var(--white);
-  display: flex;
-  align-items: flex-start;
-}
-.text-about {
-  max-width: 335px;
-  font-size: 14px;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
-  display: flex;
-}
-@media only screen and (min-width: 768px) {
-  .text-about-us {
-    font-size: 16px;
-    line-height: 1.25;
-    color: #ffffff;
-    max-width: 280px;
-    display: flex;
-    align-items: flex-start;
-    gap: 40px;
-  }
-  .text-about {
-    max-height: 215px;
-    display: flex;
-    align-items: flex-start;
-    gap: 40px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .text-about-us {
-    max-width: 268px;
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-  }
-  .text-about-us {
-    max-width: 264px;
-    max-height: 215px;
-  }
-}
-@media only screen and (min-width: 1440px) {
-  .text-about-us {
-    max-width: 330px;
-    display: flex;
+   .about-text-container {
+      column-gap: 40px;
+   }
 
-    align-items: flex-start;
-    gap: 40px;
-  }
-  .text-about {
-    max-width: 276px;
-    max-height: 215px;
-  }
+   .about-text-container .text {
+      max-width: 330px;
+   }
 }

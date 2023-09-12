@@ -1,32 +1,38 @@
 <!--About Us section-->
+<section class="section-about section" id="about">
+   <div class="container element-animation ">
+      <h2 class="title about-us-title">About&nbsp;<span>Us</span></h2>
+      <div class="about-content">
 
-<section id="about" class="section ">
-   <div class="about container element-animation">
-      <h2 class="title-about title">
-         About<span class="title-us title">Us</span>
-      </h2>
-      <div class="pic-photograph">
-         <img srcset="
-          ./img/about/about-mobi.png,
-          ./img/about/about-tablet.png,
-          ./img/about/about-min.png,
-          ./img/about/about.png
-        " src="./img/about/about.png" alt="photograph" />
+         <!--========================= ABOUT US MAIN IMAGE  ===============-->
+         <picture>
+            <source media="(min-width: 1440px)" srcset="./img/about/about.png 1x, ./img/about/about@2x.png 2x" type="image/png">
+            <source media="(min-width: 1280px)" srcset="./img/about/about-min.png 1x, ./img/about/about-min@2x.png 2x" type="image/png" />
+            <source media="(min-width: 768px)" srcset="./img/about/about-tablet.png 1x, ./img/about/about-tablet@2x.png 2x" type="image/png" />
+            <source media="(max-width: 767px)" srcset="./img/about/about-mobi.png 1x, ./img/about/about-mobi@2x.png 2x" type="image/png" />
+            <img class="about-image" src="./img/about/about-mobi.png" alt="photo-camera" loading="lazy" />
+         </picture>
+         <!-- ======================================================================== -->
+
+         <!--============================= ABOUT US TEXT BLOCK  ======================-->
+         <div class="about-text-container">
+            <p class="text about-second-text">
+               Our photography school is designed to teach you everything you need to
+               know about this magical art. Regardless of your experience or skill
+               level, we offer a wide range of courses to suit your needs and
+               interests. Our teaching team consists of experienced photographers who
+               have many years of experience in this field. They strive not only to
+               share their knowledge, but also to inspire you to develop and express
+               your unique creativity.
+            </p>
+            <p class="text about-second-text">
+               Our courses cover a wide range of topics, from the basics of photography
+               and equipment use to professional image processing and creating
+               impressive compositions. You will have the opportunity to learn the
+               technical aspects of photography, discover your own style and develop
+               your own visual language.
+            </p>
+         </div>
       </div>
-      <p class="text-about-us">
-         Our photography school is designed to teach you everything you need to
-         know about this magical art. Regardless of your experience or skill level,
-         we offer a wide range of courses to suit your needs and interests. Our
-         teaching team consists of experienced photographers who have many years of
-         experience in this field. They strive not only to share their knowledge,
-         but also to inspire you to develop and express your unique creativity.
-      </p>
-      <p class="text-about-us link">
-         Our courses cover a wide range of topics, from the basics of photography
-         and equipment use to professional image processing and creating impressive
-         compositions. You will have the opportunity to learn the technical aspects
-         of photography, discover your own style and develop your own visual
-         language.
-      </p>
    </div>
 </section>

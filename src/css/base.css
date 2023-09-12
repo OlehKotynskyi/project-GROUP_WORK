@@ -140,7 +140,7 @@ body {
 
 .element-animation {
    opacity: 0;
-   transform: translateY(10%);
+   transform: translateY(5%);
 }
 
 .element-animation.element-show {
