@@ -29,8 +29,10 @@
 }
 .section-about-container {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 @media screen and (min-width: 767.98px) {
   .section-about-container {
@@ -51,6 +53,7 @@
   .section-about-container {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
   }
 }
 .about-section-title {
