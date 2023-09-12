@@ -1,16 +1,12 @@
-.signin {
-  display: flex;
-  justify-content: center;
-}
-
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 375px) and (max-width: 767.98px) {
   .signin {
-    justify-content: start;
-  }
+    max-width: 375px;
+  } 
 }
 
 @media screen and (min-width: 1280px) {
   .signin {
+    display: flex;
     justify-content: space-between;
     padding: 0;
     max-width: 1080px;
@@ -31,14 +27,25 @@
 }
 
 .sign-please {
-  width: 100%;
   margin-bottom: 40px;
+  margin-right: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .sign-please {
+    margin-right: 0px;
+  }
 }
 
 .sign-up {
-  max-width: 480px;
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .sign-up {
+    max-width: 480px;
+  }
 }
 
 .sign-button {
@@ -46,14 +53,14 @@
   background: var(--white, #fff);
   display: flex;
   width: 100%;
-  padding: 14px 127px;
+  height: 48px;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
   color: var(--black, #121212);
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.25em;
+  line-height: 1.25;
   text-transform: uppercase;
   transition: color 0.3s ease, background-color 0.3s ease;
 }
@@ -68,7 +75,7 @@
 @media (hover: hover) {
   .sign-button:hover,
   .sign-button:focus {
-    background-color: #1d1d1d;
+    background-color: var(--black, #121212);
     color: #bea69e;
   }
 }
@@ -79,26 +86,24 @@
 }
 
 .input-sign {
-  height: 46.308px;
   width: 100%;
   background: transparent;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   outline: none;
   transition: border 0.3s ease;
-  padding: 0 20px;
+  padding: 14px 18px;
   font-size: 14px;
-  color: #fff;
+  color: var(--white);
   margin-bottom: 8px;
 }
 
 @media screen and (min-width: 768px) {
   .input-sign,
   .area {
-    width: 100%;
-    height: 60px;
+    padding: 20px 18px;
     font-size: 16px;
-    line-height: 1.25em;
+    line-height: 1.25;
   }
 }
 
@@ -107,7 +112,7 @@
 }
 
 .area {
-  color: #fff;
+  color: var(--white);
   height: 112px;
   flex-shrink: 0;
   margin-bottom: 40px;
@@ -125,13 +130,11 @@
 .accept {
   color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
-  line-height: 1em;
-  width: 100%;
+  line-height: 1.33;
 }
 @media screen and (min-width: 768px) {
-  .accept,
-  .privacy {
-    line-height: 1.125em;
+  .accept {
+    line-height: 1.28;
     font-size: 14px;
   }
 }
@@ -139,8 +142,14 @@
 .privacy {
   color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
-  line-height: 1em;
+  line-height: 18px;
   text-decoration-line: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .privacy {
+    font-size: 14px;
+  }
 }
 
 .sign-title {
@@ -180,32 +189,51 @@
   background: #bea69e;
 }
 
+@media only screen and (min-width: 1440px) {
+  .picture-lens {
+    width: 190px;
+  }
+}
+
 .picture-camera {
-  width: 350px;
+  width: 340px;
   height: 540px;
   flex-shrink: 0;
   border-radius: 1000px;
-  background: #1d1d1d;
+  background: var(--black-light);
+}
+
+@media only screen and (min-width: 1440px) {
+  .picture-camera {
+    width: 350px;
+  }
 }
 
 .lens-img {
-  margin-top: 76px;
-  margin-left: -20%;
+  margin-top: 66px;
+  margin-left: -24%;
   width: 202px;
   max-width: none;
 }
 
+@media only screen and (min-width: 1440px) {
+  .lens-img {
+    margin-left: -16%;
+  }
+}
+
+.picture-camera {
+  padding: 0 50px;
+  padding-top: 156px;
+}
+
 .camera-img {
-  margin: auto;
-  margin-top: 156px;
   width: 240px;
   height: 296px;
 }
 
 @media screen and (min-width: 1440px) {
   .camera-img {
-    margin: auto;
-    margin-top: 139px;
     width: 254px;
     height: 313px;
   }
