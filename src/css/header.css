@@ -1,6 +1,6 @@
 .header {
    position: fixed;
-   top: 0;
+   top: 20px;
    left: 0;
    z-index: 999;
    width: 100%;
@@ -20,7 +20,6 @@
    border: 1px solid rgba(255, 255, 255, 0.2);
    display: flex;
    height: 50px;
-   margin-top: 20px;
    padding: 0 20px;
    align-items: center;
    background: var(--black);
@@ -55,6 +54,10 @@
    padding: 8px;
    border-radius: 50%;
    transition: background-color var(--animation), color var(--animation);
+}
+
+.header-nav-link {
+   padding: 10px 0;
 }
 
 .header-singup-icon {

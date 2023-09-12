@@ -42,6 +42,9 @@ only screen and (max-width: 767px) and (min-resolution: 2dppx) {
       transform: translateY(0%);
    }
 }
+
+
+
 /* ============================================ */
 /*================ HERO-TITLE ================= */
 .hero-title {
@@ -75,9 +78,17 @@ only screen and (max-width: 767px) and (min-resolution: 2dppx) {
 
 /* ===================================================== */
 /* =========== HERO REVIEWS ============================== */
+
+
+
 .hero-reviews-list {
    display: flex;
    align-items: center;
+   justify-content: center;
+}
+
+.hero-reviews-item {
+   display: block;
 }
 
 .hero-reviews-item:last-child {
@@ -107,7 +118,6 @@ only screen and (max-width: 767px) and (min-resolution: 2dppx) {
 .hero-reviews-text {
    transition: color var(--animation);
    width: 67px;
-   margin-top: 4px;
 }
 
 .hero-reviews-text-one {
@@ -128,11 +138,13 @@ only screen and (max-width: 767px) and (min-resolution: 2dppx) {
 }
 
 .hero-review-link:active .arrow-icon {
-  fill: var(--brown);
+   fill: var(--brown);
 }
+
 .hero-review-link:active .hero-reviews-text {
-  color: var(--brown);
+   color: var(--brown);
 }
+
 @media (hover: hover) {
 
    .hero-review-link:hover .arrow-icon,
@@ -283,13 +295,25 @@ only screen and (max-width: 1279px) and (min-resolution: 2dppx) {
       padding-right: 50px;
    }
 
+   .hero-content-container {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 50px;
+   }
+
    .hero-title {
       max-width: 538px;
       font-size: 64px;
+
    }
 
    .hero-text {
-      margin-bottom: 136px;
+      flex: 1 1 auto;
+      /*margin-bottom: 136px;*/
+   }
+
+   .hero-reviews {
+      margin-bottom: 0px;
    }
 
    .hero-image {
