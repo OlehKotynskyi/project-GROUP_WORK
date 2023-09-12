@@ -1,4 +1,5 @@
 /*About Us section*/
+/* ==============================FOR MOBILE DEVICES ================== */
 .section-about {
   padding-top: 80px;
 }
@@ -19,6 +20,8 @@
   align-items: center;
   row-gap: 20px;
 }
+/* ============================================================== */
+/*=================== FOR TABLET FROM 768 PX  ===================*/
 @media only screen and (min-width: 768px) {
   .section-about {
     padding-top: 100px;
@@ -39,6 +42,8 @@
     max-width: 280px;
   }
 }
+/* ================================================================== */
+/*========================= FOR DESKTOP FROM 1280PX  =================*/
 @media only screen and (min-width: 1280px) {
   .section-about {
     padding-top: 150px;
@@ -60,6 +65,8 @@
     max-width: 268px;
   }
 }
+/* ======================================================================= */
+/*========================= FOR DESKTOP 1440PX AND MORE  =================*/
 @media only screen and (min-width: 1440px) {
   .about-content {
     max-width: 1280px;
