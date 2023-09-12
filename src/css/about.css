@@ -126,6 +126,7 @@
 }
 
 .text-about-us {
+  max-width: 335px;
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
@@ -156,6 +157,10 @@
     align-items: flex-start;
     gap: 40px;
   }
+  .about-box {
+    display: inline-flex;
+    gap: 40px;
+  }
 }
 @media only screen and (min-width: 1280px) {
   .text-about-us {
@@ -167,6 +172,12 @@
   .text-about-us {
     max-width: 264px;
     max-height: 215px;
+  }
+  .about-box {
+    display: inline-flex;
+    gap: 40px;
+    position: relative;
+    left: 600px;
   }
 }
 @media only screen and (min-width: 1440px) {
