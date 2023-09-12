@@ -42,9 +42,15 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .container.our-mentors {
+    max-width: 1079px;
+    padding: 0;
+  }
   .mentors-section-list {
-    max-width: 1280px;
+    max-width: 1079px;
     gap: 93px;
+    padding-left: 33px;
+    padding-right: 33px;
   }
 
   .mentors-section-item {
@@ -53,9 +59,10 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .our-mentors {
+  .container.our-mentors {
     max-width: 1189px;
-    padding: 0;
+    margin-left: 100px;
+    margin-right: 151px;
   }
 
   .mentors-section-title {
@@ -63,9 +70,11 @@
   }
 
   .mentors-section-list {
+    max-width: 1189px;
     padding-left: 84px;
     padding-right: 32px;
     gap: 113px;
+    margin: 0;
   }
 
   .mentors-section-item {
