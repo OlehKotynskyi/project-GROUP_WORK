@@ -1,166 +1,72 @@
 /*About Us section*/
-
-.about .section {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-image: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
-}
-
-@media only screen and (min-width: 768px) {
-  .about .section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .about .section {
-    padding-top: 75px;
-    padding-bottom: 75px;
-  }
+.section-about .container {
+  max-width: 335px;
 }
 .section-about {
-  display: block;
-  margin-top: 80px;
+  padding-top: 80px;
 }
-.about-section-title {
-  margin: 40px;
-  align-items: flex-start;
+.about-us-title {
+  margin-bottom: 40px;
 }
-.section-about-container {
+.about-content {
   display: flex;
-  flex-direction: row;
-  gap: 40px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-@media screen and (min-width: 767.98px) {
-  .section-about-container {
-    display: flex;
-    gap: 40px;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .section-about-container {
-    gap: 50px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: nowrap;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .section-about-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-  }
-}
-.about-section-title {
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
-}
-.title-about {
-  display: flex;
-  gap: 10px;
-}
-
-.about-section-wrapper {
-  display: flex;
-  align-items: center;
   flex-direction: column;
+  row-gap: 40px;
 }
-@media screen and (min-width: 767.98px) {
-  .about-section-wrapper {
-    justify-content: center;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .about-section-wrapper {
-    display: flex;
-    align-items: flex-start;
-  }
-}
-.about-section-image {
-  max-width: 100%;
-  border-radius: 1000px;
-  background: url(../img/about/about-mobi.png);
-  background-repeat: no-repeat;
-}
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .about-section-image {
-    background: url(../img/about/about-mobi@2x.png);
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .about-section-image {
-    max-width: 340px;
-    background-size: cover;
-    background-position: center;
-    background: url(../img/about/about-tablet.png);
-  }
-}
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .about-section-image {
-    background: url(../img/about/about-tablet@2x.png);
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .about-section-image {
-    max-width: 100%;
-    background-size: cover;
-    background: url(../img/about/about-min.png);
-  }
-}
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .about-section-image {
-    background: url(../img/about/about-min@2x.png);
-  }
-}
-@media only screen and (min-width: 1440px) {
-  .about-section-image {
-    background: url(../img/about/about.png);
-  }
-}
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .about-section-image {
-    background: url(../img/about/about@2x.png);
-  }
-}
-
-.text-about-us {
-  max-width: 335px;
+.about-text-container {
   display: flex;
-  gap: 40px;
+  flex-direction: column;
+  row-gap: 20px;
 }
-
 @media only screen and (min-width: 768px) {
-  .text-about-us {
-    display: flex;
-    gap: 40px;
+  .section-about {
+    padding-top: 100px;
+  }
+  .section-about .container {
+    max-width: 704px;
+  }
+  .about-us-title {
+    margin-bottom: 50px;
+  }
+  .about-text-container {
+    flex-direction: row;
+    column-gap: 40px;
+  }
+  .about-text-container .text {
+    max-width: 280px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .text-about-us {
-    display: flex;
-    gap: 20px;
+  .section-about {
+    padding-top: 150px;
+  }
+  .section-about .container {
+    max-width: 1080px;
+  }
+  .about-content {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+  }
+  .about-text-container {
+    column-gap: 20px;
+  }
+  .about-text-container .text {
+    max-width: 268px;
   }
 }
-
 @media only screen and (min-width: 1440px) {
-  .text-about-us {
-    display: flex;
-    gap: 40px;
+  .section-about .container {
+    max-width: 1240px;
+  }
+  .about-content {
+    column-gap: 50px;
+  }
+  .about-text-container {
+    column-gap: 40px;
+  }
+  .about-text-container .text {
+    max-width: 330px;
   }
 }
