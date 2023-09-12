@@ -1,7 +1,4 @@
 /*About Us section*/
-.section-about .container {
-  max-width: 335px;
-}
 .section-about {
   padding-top: 80px;
 }
@@ -9,28 +6,34 @@
   margin-bottom: 40px;
 }
 .about-content {
+  max-width: 335px;
   display: flex;
   flex-direction: column;
   row-gap: 40px;
+  align-items: center;
+  margin: 0 auto;
 }
 .about-text-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   row-gap: 20px;
 }
 @media only screen and (min-width: 768px) {
   .section-about {
     padding-top: 100px;
   }
-  .section-about .container {
+  .about-content {
     max-width: 704px;
   }
+
   .about-us-title {
     margin-bottom: 50px;
   }
   .about-text-container {
     flex-direction: row;
     column-gap: 40px;
+    align-items: flex-start;
   }
   .about-text-container .text {
     max-width: 280px;
@@ -40,9 +43,10 @@
   .section-about {
     padding-top: 150px;
   }
-  .section-about .container {
+  .about-content {
     max-width: 1080px;
   }
+
   .about-content {
     width: 100%;
     flex-direction: row;
@@ -57,10 +61,8 @@
   }
 }
 @media only screen and (min-width: 1440px) {
-  .section-about .container {
-    max-width: 1240px;
-  }
   .about-content {
+    max-width: 1280px;
     column-gap: 50px;
   }
   .about-text-container {
