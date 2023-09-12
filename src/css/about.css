@@ -1,81 +1,97 @@
 /*About Us section*/
 /* ==============================FOR MOBILE DEVICES ================== */
 .section-about {
-  padding-top: 80px;
+   padding-top: 80px;
 }
+
 .about-us-title {
-  margin-bottom: 40px;
+   margin-bottom: 40px;
 }
+
 .about-content {
-  max-width: 335px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 40px;
-  align-items: center;
-  margin: 0 auto;
+   max-width: 335px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 40px;
+   /*align-items: center;*/
+   margin: 0 auto;
 }
+
 .about-text-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap: 20px;
 }
+
 /* ============================================================== */
 /*=================== FOR TABLET FROM 768 PX  ===================*/
 @media only screen and (min-width: 768px) {
-  .section-about {
-    padding-top: 100px;
-  }
-  .about-content {
-    max-width: 704px;
-  }
+   .section-about {
+      padding-top: 100px;
 
-  .about-us-title {
-    margin-bottom: 50px;
-  }
-  .about-text-container {
-    flex-direction: row;
-    column-gap: 40px;
-    align-items: flex-start;
-  }
-  .about-text-container .text {
-    max-width: 280px;
-  }
+   }
+
+   .about-content {
+      max-width: 704px;
+      row-gap: 50px;
+   }
+
+   .about-us-title {
+      margin-bottom: 50px;
+   }
+
+   .about-text-container {
+      flex-direction: row;
+      column-gap: 40px;
+      align-items: flex-start;
+   }
+
+   .about-text-container .text {
+      max-width: 280px;
+   }
 }
+
 /* ================================================================== */
 /*========================= FOR DESKTOP FROM 1280PX  =================*/
 @media only screen and (min-width: 1280px) {
-  .section-about {
-    padding-top: 150px;
-  }
-  .about-content {
-    max-width: 1080px;
-  }
+   .section-about {
+      padding-top: 150px;
+   }
 
-  .about-content {
-    width: 100%;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 40px;
-  }
-  .about-text-container {
-    column-gap: 20px;
-  }
-  .about-text-container .text {
-    max-width: 268px;
-  }
+   .about-content {
+      max-width: 1080px;
+   }
+
+   .about-content {
+      width: 100%;
+      flex-direction: row;
+      align-items: center;
+      column-gap: 40px;
+   }
+
+   .about-text-container {
+      column-gap: 20px;
+   }
+
+   .about-text-container .text {
+      max-width: 268px;
+   }
 }
+
 /* ======================================================================= */
 /*========================= FOR DESKTOP 1440PX AND MORE  =================*/
 @media only screen and (min-width: 1440px) {
-  .about-content {
-    max-width: 1280px;
-    column-gap: 50px;
-  }
-  .about-text-container {
-    column-gap: 40px;
-  }
-  .about-text-container .text {
-    max-width: 330px;
-  }
+   .about-content {
+      max-width: 1280px;
+      column-gap: 50px;
+   }
+
+   .about-text-container {
+      column-gap: 40px;
+   }
+
+   .about-text-container .text {
+      max-width: 330px;
+   }
 }
