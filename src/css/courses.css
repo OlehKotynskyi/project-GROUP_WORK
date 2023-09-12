@@ -63,7 +63,7 @@
 }
 .our-courses-text {
   max-width: 335px;
-  min-height: 72px;
+  min-height: 54px;
 }
 @media only screen and (min-width: 768px) {
   .our-courses-text {
@@ -107,6 +107,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   max-width: 335px;
   min-height: 398px;
   border-radius: 12px;
@@ -206,23 +207,25 @@
   }
 }
 .our-courses-item-title {
-  margin-top: 60px;
-  margin-bottom: auto;
+  position: absolute;
+  top: 88px;
+  left: 28px;
   min-height: 64px;
-  padding-right: 10px;
 }
 @media only screen and (min-width: 768px) {
   .our-courses-item-title {
     max-width: 265px;
-    margin-top: 64px;
+    top: 96px;
+    left: 32px;
   }
 }
 .our-courses-desc {
-  color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.5);
   width: 100%;
+
 }
 @media only screen and (min-width: 768px) {
   .our-courses-desc {
