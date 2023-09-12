@@ -1,44 +1,13 @@
-/* General */
-.reviews-section .container {
-   min-width: 280px;
-   max-width: 335px;
-   padding: 0;
-}
-
-/* Mobile 320px */
-@media only screen and (max-width: 375px) {
-   .reviews-section .container {
-      margin: 0 20px;
-   }
-}
-
-/* Tablet */
-@media only screen and (min-width: 768px) {
-   .reviews-section .container {
-      max-width: 704px;
-   }
-}
-
-/* Desk */
-@media only screen and (min-width: 1280px) {
-   .reviews-section .container {
-      max-width: 1080px;
-   }
-}
-
-/* Desk 1440px */
-@media only screen and (min-width: 1440px) {
-   .reviews-section .container {
-      margin: 0 auto;
-      max-width: 1240px;
-   }
-}
-
 /**
   |============================
   | Reviews section
   |============================
 */
+
+.reviews-section {
+   padding-bottom: 150px;
+}
+
 .reviews-title {
    margin-bottom: 40px;
 }
