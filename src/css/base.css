@@ -132,11 +132,11 @@ body {
 }
 
 @media only screen and (min-width: 1440px) {
-
    .container {
       max-width: 1304px;
    }
 }
+
 
 .element-animation {
    opacity: 0;
