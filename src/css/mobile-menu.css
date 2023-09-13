@@ -112,7 +112,7 @@ only screen and (min-width: 768px) and (max-height: 899.98px) and (min-resolutio
 @media only screen and (min-width: 768px) {
    .mobile-menu {
       width: 480px;
-      padding: 20px 32px 0 64px;
+      padding: 20px 32px 20px 64px;
    }
 }
 
