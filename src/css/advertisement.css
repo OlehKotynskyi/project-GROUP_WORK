@@ -12,7 +12,7 @@
   min-width: 100%;
   white-space: nowrap;
   animation-name: runningStrip;
-  animation-duration: 5s;
+  animation-duration: 7.5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -50,5 +50,7 @@
   .running-strip {
     font-size: 59px;
     line-height: 1.08;
+    animation-duration: 7s;
+    animation-timing-function: cubic-bezier(0.34, 1.06, 0.55, 0);
   }
 }
