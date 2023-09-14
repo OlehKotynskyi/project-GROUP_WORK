@@ -9,9 +9,8 @@
 .header-container {
   transition: transform 0.3s ease;
 }
-
 .header-container.hide {
-  transition: transform 0.3s ease;
+  transition: transform var(--animation);
   transform: translateY(-150%);
 }
 
@@ -93,7 +92,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.8px) {
   .header-singup-title {
     display: none;
   }
@@ -140,7 +139,8 @@
   }
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1279.8px) {
+
   .header-nav-list {
     display: none;
   }
