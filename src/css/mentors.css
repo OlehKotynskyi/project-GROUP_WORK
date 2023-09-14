@@ -38,7 +38,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .container.our-mentors {
+  .container.mentors-container {
     max-width: 1079px;
     padding: 0;
   }
@@ -55,7 +55,7 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .container.our-mentors {
+  .container.mentors-container {
     max-width: 1189px;
   }
 
