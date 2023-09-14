@@ -7,9 +7,8 @@
 }
 
 .header-container {
-  transition: transform var(--animation);
+  transition: transform 0.3s ease;
 }
-
 .header-container.hide {
   transition: transform var(--animation);
   transform: translateY(-150%);
@@ -87,6 +86,11 @@
     color: var(--brown);
   }
 }
+@media only screen and (min-width: 440px) and (max-width: 767.98px) {
+  .header-container {
+    padding: 0;
+  }
+}
 
 @media (max-width: 767.8px) {
   .header-singup-title {
@@ -136,6 +140,7 @@
 }
 
 @media (max-width: 1279.8px) {
+
   .header-nav-list {
     display: none;
   }
