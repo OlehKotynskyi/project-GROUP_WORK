@@ -1,20 +1,20 @@
 .backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(18, 18, 18, 0.4);
-  visibility: visible;
-  opacity: 1;
-  transition: visibility var(--animation), opacity var(--animation);
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(18, 18, 18, 0.4);
+   visibility: visible;
+   opacity: 1;
+   transition: visibility var(--animation), opacity var(--animation);
 }
 
 .is-hidden {
-  pointer-events: none;
-  visibility: hidden;
-  opacity: 0;
+   pointer-events: none;
+   visibility: hidden;
+   opacity: 0;
 }
 
 /*
@@ -23,25 +23,26 @@
   |============================
 */
 .mobile-menu {
-  margin-left: auto;
-  width: 218px;
-  height: 100%;
-  z-index: 1000;
-  background-color: var(--brown);
-  padding: 20px;
-  overflow: scroll;
-  background-image: url('../img/mobile-menu/mob-menu-bg_mob.jpg');
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
+   margin-left: auto;
+   width: 218px;
+   height: 100%;
+   z-index: 1000;
+   background-color: var(--brown);
+   padding: 20px;
+   overflow: scroll;
+   background-image: url('../img/mobile-menu/mob-menu-bg_mob.jpg');
+   background-position: bottom;
+   background-repeat: no-repeat;
+   background-size: contain;
 }
 
 @media (max-height: 639.98px) and (max-width: 767.98px) {
-  .mobile-menu {
-    background-image: linear-gradient(to bottom, #bea69e, rgba(37, 37, 37, 0.7)),
-      url('../img/mobile-menu/mob-menu-bg_mob.jpg');
-  }
+   .mobile-menu {
+      background-image: linear-gradient(to bottom, #bea69e, rgba(37, 37, 37, 0.7)),
+         url('../img/mobile-menu/mob-menu-bg_mob.jpg');
+   }
 }
+
 /*
   |============================
 
@@ -49,20 +50,20 @@
   |============================
 */
 @media only screen and (-webkit-device-pixel-ratio: 2),
-  only screen and (min-resolution: 192dpi),
-  only screen and (min-resolution: 2dppx) {
-  .mobile-menu {
-    background-image: url('../img/mobile-menu/mob-menu-bg_mob@2x.jpg');
-  }
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+   .mobile-menu {
+      background-image: url('../img/mobile-menu/mob-menu-bg_mob@2x.jpg');
+   }
 }
 
 @media only screen and (max-width: 767.98px) and (max-height: 639.98px) and (-webkit-device-pixel-ratio: 2),
-  only screen and (max-width: 767.98px) and (max-height: 639.98px) and (min-resolution: 192dpi),
-  only screen and (max-width: 767.98px) and (max-height: 639.98px) and (min-resolution: 2dppx) {
-  .mobile-menu {
-    background-image: linear-gradient(to bottom, #bea69e, rgba(37, 37, 37, 0.7)),
-      url('../img/mobile-menu/mob-menu-bg_mob@2x.jpg');
-  }
+only screen and (max-width: 767.98px) and (max-height: 639.98px) and (min-resolution: 192dpi),
+only screen and (max-width: 767.98px) and (max-height: 639.98px) and (min-resolution: 2dppx) {
+   .mobile-menu {
+      background-image: linear-gradient(to bottom, #bea69e, rgba(37, 37, 37, 0.7)),
+         url('../img/mobile-menu/mob-menu-bg_mob@2x.jpg');
+   }
 }
 
 /*
@@ -71,16 +72,16 @@
   |============================
 */
 @media only screen and (min-width: 768px) {
-  .mobile-menu {
-    background-image: url('../img/mobile-menu/mob-menu-bg_tab.jpg');
-  }
+   .mobile-menu {
+      background-image: url('../img/mobile-menu/mob-menu-bg_tab.jpg');
+   }
 }
 
 @media only screen and (max-height: 899.98px) and (min-width: 768px) {
-  .mobile-menu {
-    background-image: linear-gradient(to bottom, #bea69e, rgba(37, 37, 37, 0.7)),
-      url('../img/mobile-menu/mob-menu-bg_tab.jpg');
-  }
+   .mobile-menu {
+      background-image: linear-gradient(to bottom, #bea69e, rgba(37, 37, 37, 0.7)),
+         url('../img/mobile-menu/mob-menu-bg_tab.jpg');
+   }
 }
 
 /*
@@ -89,31 +90,31 @@
   |============================
 */
 @media only screen and (-webkit-device-pixel-ratio: 2) and (min-width: 768px),
-  only screen and (min-resolution: 192dpi) and (min-width: 768px),
-  only screen and(min-resolution: 2dppx) and (min-width: 768px) {
-  .mobile-menu {
-    background-image: url('../img/mobile-menu/mob-menu-bg_tab@2x.jpg');
-  }
+only screen and (min-resolution: 192dpi) and (min-width: 768px),
+only screen and(min-resolution: 2dppx) and (min-width: 768px) {
+   .mobile-menu {
+      background-image: url('../img/mobile-menu/mob-menu-bg_tab@2x.jpg');
+   }
 }
 
 @media only screen and (min-width: 768px) and (max-height: 899.98px) and (-webkit-device-pixel-ratio: 2),
-  only screen and (min-width: 768px) and (max-height: 899.98px) and (min-resolution: 192dpi),
-  only screen and (min-width: 768px) and (max-height: 899.98px) and (min-resolution: 2dppx) {
-  .mobile-menu {
-    background-image: linear-gradient(to bottom, #bea69e, rgba(37, 37, 37, 0.7)),
-      url('../img/mobile-menu/mob-menu-bg_tab@2x.jpg');
-  }
+only screen and (min-width: 768px) and (max-height: 899.98px) and (min-resolution: 192dpi),
+only screen and (min-width: 768px) and (max-height: 899.98px) and (min-resolution: 2dppx) {
+   .mobile-menu {
+      background-image: linear-gradient(to bottom, #bea69e, rgba(37, 37, 37, 0.7)),
+         url('../img/mobile-menu/mob-menu-bg_tab@2x.jpg');
+   }
 }
 
 @media only screen and (min-width: 768px) {
-  .mobile-menu {
-    width: 480px;
-    padding: 40px 32px 32px 64px;
-  }
+   .mobile-menu {
+      width: 480px;
+      padding: 40px 32px 32px 64px;
+   }
 }
 
 .mobile-menu.is-open {
-  transform: translateX(0%);
+   transform: translateX(0%);
 }
 
 /*
@@ -123,72 +124,79 @@
 */
 
 .close-button {
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
-  margin-bottom: 10vh;
-  margin-left: auto;
+   width: 32px;
+   height: 32px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: transparent;
+   margin-bottom: 10vh;
+   margin-left: auto;
 }
+
 .current {
-  position: relative;
-  color: var(--black-light);
+   position: relative;
+   color: var(--black-light);
 }
+
 .current::before {
-  content: '';
-  position: absolute;
-  width: 70%;
-  left: 0;
-  top: 15px;
-  height: 2px;
-  background-color: var(--black-light);
-  border-radius: 2px;
-  transform: rotate(45deg);
+   content: '';
+   position: absolute;
+   width: 70%;
+   left: 0;
+   top: 15px;
+   height: 2px;
+   background-color: var(--black-light);
+   border-radius: 2px;
+   transform: rotate(45deg);
 }
+
 .current::after {
-  content: '';
-  position: absolute;
-  width: 70%;
-  left: 0;
-  bottom: 15px;
-  height: 2px;
-  background-color: var(--black-light);
-  border-radius: 2px;
-  transform: rotate(-45deg);
+   content: '';
+   position: absolute;
+   width: 70%;
+   top: auto;
+   left: 0;
+   bottom: 15px;
+   height: 2px;
+   background-color: var(--black-light);
+   border-radius: 2px;
+   transform: rotate(-45deg);
 }
 
 @media only screen and (min-width: 768px) {
-  .close-button {
-    width: 40px;
-    height: 40px;
-  }
-  .current::before,
-  .current::after {
-    width: 100%;
-  }
-  .current::before {
-    top: 18.5px;
-  }
-  .current::after {
-    bottom: 18.5px;
-  }
+   .close-button {
+      width: 40px;
+      height: 40px;
+   }
+
+   .current::before,
+   .current::after {
+      width: 100%;
+   }
+
+   .current::before {
+      top: 19.5px;
+   }
+
+   .current::after {
+      bottom: 18px;
+   }
 }
 
 .menu-close-icon {
-  stroke: var(--black);
-  width: 32px;
-  height: 32px;
+   stroke: var(--black);
+   width: 32px;
+   height: 32px;
 
-  display: block;
+   display: block;
 }
 
 @media only screen and (min-width: 768px) {
-  .menu-close-icon {
-    width: 40px;
-    height: 40px;
-  }
+   .menu-close-icon {
+      width: 40px;
+      height: 40px;
+   }
 }
 
 /*
@@ -198,29 +206,31 @@
 */
 
 .mobile-menu-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 20px;
 }
 
 .mob-menu-link {
-  color: var(--black);
+   color: var(--black);
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
 
 .mob-menu-link:focus {
-  font-weight: 700;
-  color: var(--black);
+   font-weight: 700;
+   color: var(--black);
 }
 
 @media only screen and (min-width: 768px) {
-  .mobile-menu-list {
-    gap: 28px;
-  }
+   .mobile-menu-list {
+      gap: 28px;
+   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .backdrop {
-    display: none;
-  }
+   .backdrop {
+      display: none;
+   }
 }

@@ -1,28 +1,28 @@
 <section class="section element-animation" id="sign">
-   <div class="container signin ">
-      <div class="sign-up">
+   <div class="container signin-container ">
+      <div class="sign-up-blok">
          <h2 class="title sign-title">Sign <span>Up</span></h2>
-         <p class="text sign-please">
+         <p class="text sign-text">
             Please use the form below to contact us. Enter your name, email, and
             message and we'll get back to you shortly.
          </p>
          <div class="form-sign-container">
             <form class="form-sign">
                <div class="form-sign-blok">
-                  <input name="name" type="text" pattern="[A-Za-z]{6,}, ^[a-zA-Z]+$" class="input-sign" placeholder="Enter your name" required/>
+                  <input name="name" type="text" class="input-sign" placeholder="Enter your name" required />
                </div>
                <div class="form-sign-blok">
-                  <input name="email" class="input-sign" placeholder="Enter your email" type="email" required/>
+                  <input name="email" class="input-sign" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" placeholder="Enter your email" type="email" required />
                </div>
                <div class="form-sign-blok-area">
-                  <textarea name="text_area" class="input-sign area" placeholder="Message" cols="21" rows="4" required></textarea>
+                  <textarea name="text_area" class="input-sign sign-area" placeholder="Message" cols="21" rows="4" required></textarea>
                </div>
                <div class="form-sign-blok-btn">
                   <button class="sign-button" type="submit">Send</button>
                </div>
-               <p class="text accept">
+               <p class="text sign-text-accept">
                   By clicking on &#8243;Send&#8243; button, you agree to our
-                  <a href="" class="link-privacy">
+                  <a href="" class="sign-link-privacy">
                      Privacy Policy,
                   </a>
                   <br>
@@ -33,17 +33,17 @@
          </div>
       </div>
       <div class="sign-pictures">
-         <div class="picture-lens">
+         <div class="sign-picture-lens">
             <picture>
                <!-- 1440px -->
                <source media="(min-width: 1440px)" srcset="./img/sign/lens.png 1x, ./img/sign/lens@2x.png 2x" type="image/png" />
                <!-- 1280px  -->
                <source media="(min-width: 1280px)" srcset="./img/sign/lens-min.png 1x, ./img/sign/lens-min@2x.png 2x" type="image/png" />
 
-               <img src="./img/sign/lens@2x.png" alt="lens" width="163" height="154" class="lens-img" loading="lazy" />
+               <img src="./img/sign/lens@2x.png" alt="lens" width="163" height="154" class="sign-lens-img" loading="lazy" />
             </picture>
          </div>
-         <div class="picture-camera">
+         <div class="sign-picture-camera">
             <picture>
                <!-- 1440px -->
                <source media="(min-width: 1440px)" srcset="./img/sign/camera.png 1x, ./img/sign/camera@2x.png 2x" />
@@ -53,7 +53,7 @@
               ./img/sign/camera-min@2x.png 2x
             " />
 
-               <img src="./img/sign/camera@2x.png" alt="camera" width="240" height="296" class="camera-img" loading="lazy" />
+               <img src="./img/sign/camera@2x.png" alt="camera" width="240" height="296" class="sign-camera-img" loading="lazy" />
             </picture>
          </div>
       </div>

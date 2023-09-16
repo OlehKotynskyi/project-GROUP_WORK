@@ -1,22 +1,13 @@
-@media only screen and (min-width: 375px) and (max-width: 767.98px) {
-   .signin {
-      max-width: 375px;
-   }
-}
-
 @media screen and (min-width: 1280px) {
-   .signin {
+   .signin-container {
       display: flex;
       justify-content: space-between;
-      padding: 0;
-      max-width: 1080px;
    }
 }
 
 @media screen and (min-width: 1440px) {
-   .signin {
+   .signin-container {
       justify-content: space-between;
-      max-width: 1240px;
    }
 }
 
@@ -26,24 +17,24 @@
    align-items: end;
 }
 
-.sign-please {
+.sign-text {
    margin-bottom: 40px;
    margin-right: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-   .sign-please {
+   .sign-text {
       margin-right: 0px;
    }
 }
 
-.sign-up {
+.sign-up-blok {
    display: flex;
    flex-direction: column;
 }
 
 @media only screen and (min-width: 768px) {
-   .sign-up {
+   .sign-up-blok {
       max-width: 480px;
    }
 }
@@ -117,7 +108,7 @@
 @media screen and (min-width: 768px) {
 
    .input-sign,
-   .area {
+   .sign-area {
       padding: 20px 18px;
       font-size: 16px;
       line-height: 1.25;
@@ -128,7 +119,7 @@
    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.area {
+.sign-area {
    color: var(--white);
    height: 112px;
    flex-shrink: 0;
@@ -141,26 +132,26 @@
 }
 
 @media screen and (min-width: 768px) {
-   .area {
+   .sign-area {
       padding: 20px;
       height: 118px;
    }
 }
 
-.accept {
+.sign-text-accept {
    color: rgba(255, 255, 255, 0.5);
    font-size: 12px;
    line-height: 1.33;
 }
 
 @media screen and (min-width: 768px) {
-   .accept {
+   .sign-text-accept {
       line-height: 1.28;
       font-size: 14px;
    }
 }
 
-.link-privacy {
+.sign-link-privacy {
    color: rgba(255, 255, 255, 0.5);
    font-size: 12px;
    line-height: 18px;
@@ -170,14 +161,14 @@
 
 @media (hover: hover) {
 
-   .link-privacy:focus,
-   .link-privacy:hover {
+   .sign-link-privacy:focus,
+   .sign-link-privacy:hover {
       color: var(--brown);
    }
 }
 
 @media screen and (min-width: 768px) {
-   .link-privacy {
+   .sign-link-privacy {
       font-size: 14px;
    }
 }
@@ -211,7 +202,7 @@
    }
 }
 
-.picture-lens {
+.sign-picture-lens {
    width: 180px;
    height: 288px;
    flex-shrink: 0;
@@ -220,12 +211,12 @@
 }
 
 @media only screen and (min-width: 1440px) {
-   .picture-lens {
+   .sign-picture-lens {
       width: 190px;
    }
 }
 
-.picture-camera {
+.sign-picture-camera {
    width: 340px;
    height: 540px;
    padding: 156px 50px 88px;
@@ -236,13 +227,13 @@
 
 
 @media only screen and (min-width: 1440px) {
-   .picture-camera {
+   .sign-picture-camera {
       width: 350px;
       padding: 139px 48px 88px;
    }
 }
 
-.lens-img {
+.sign-lens-img {
    margin-top: 66px;
    margin-left: -24%;
    width: 202px;
@@ -250,19 +241,19 @@
 }
 
 @media only screen and (min-width: 1440px) {
-   .lens-img {
+   .sign-lens-img {
       margin-left: -16%;
    }
 }
 
 
-.camera-img {
+.sign-camera-img {
    width: 240px;
    height: 296px;
 }
 
 @media screen and (min-width: 1440px) {
-   .camera-img {
+   .sign-camera-img {
       width: 254px;
       height: 313px;
    }
