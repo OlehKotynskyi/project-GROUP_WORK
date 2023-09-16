@@ -4,170 +4,196 @@
   |============================
 */
 .our-courses {
-  display: flex;
+   display: flex;
 }
+
 .our-courses-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
+
 .our-courses-box {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  min-width: 100%;
-  margin-bottom: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 20px;
+   min-width: 100%;
+   margin-bottom: 40px;
 }
+
 /*==================== ARROW STYLES  ===================*/
 .our-courses-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 28px;
-  right: 28px;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  background-color: var(--black-light);
-  transition: background-color var(--animation);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 28px;
+   right: 28px;
+   border-radius: 50%;
+   width: 32px;
+   height: 32px;
+   background-color: var(--black-light);
+   transition: background-color var(--animation);
 }
+
 .our-courses-text {
-  max-width: 335px;
-  margin: 0 auto;
+   max-width: 335px;
+   /*margin: 0 auto;*/
 }
 
 .our-courses-link:active,
 .our-courses-link:focus {
-  background-color: var(--brown);
+   background-color: var(--brown);
 }
+
 .our-courses-icon {
-  padding: 0 9px;
-  fill: #ffffff66;
-  transition: all var(--animation);
+   padding: 0 9px;
+   fill: #ffffff66;
+   transition: all var(--animation);
 }
+
 .our-courses-icon:active {
-  fill: var(--white);
+   fill: var(--white);
 }
+
 /* ================================================================================ */
 /*==================== CARD TITLE + DESCRIPTION ================*/
 .our-courses-item-title {
-  max-width: 70%;
-  margin-bottom: auto;
+   max-width: 70%;
+   margin-bottom: auto;
 }
+
 .our-courses-desc {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
-  width: 100%;
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 14px;
+   line-height: 1.28;
+   letter-spacing: -0.02em;
+   width: 100%;
 }
 
 /*=================== CARDS STYLES =================*/
 .our-courses-list {
-  display: flex;
-  flex-direction: column;
-  row-gap: 20px;
-  padding-left: 0;
-  margin: 0;
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+   padding-left: 0;
+   margin: 0;
 }
+
 .our-courses-list-item {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  min-height: 398px;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
-  padding: 88px 28px 28px;
-  counter-increment: count;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   max-width: 100%;
+   min-height: 398px;
+   border-radius: 12px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+   padding: 88px 28px 28px;
+   counter-increment: count;
 }
+
 .our-courses-list-item::before {
-  content: counter(count, decimal-leading-zero);
-  position: absolute;
-  top: 28px;
-  left: 28px;
-  color: rgba(255, 255, 255, 0.4);
-  font-size: 14px;
-  line-height: 1.28;
-  letter-spacing: -0.28px;
+   content: counter(count, decimal-leading-zero);
+   position: absolute;
+   top: 28px;
+   left: 28px;
+   color: rgba(255, 255, 255, 0.4);
+   font-size: 14px;
+   line-height: 1.28;
+   letter-spacing: -0.28px;
 }
+
 /* ========================================================================== */
 /*================================= FOR TABLETS FROM 768PX  ======================*/
 @media only screen and (min-width: 768px) {
-  .our-courses-container {
-    align-items: start;
-  }
-  .our-courses-box {
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 50px;
-  }
-  .our-courses-text {
-    margin: 0;
-    min-width: 381px;
-  }
-  .our-courses-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  .our-courses-list-item::before {
-    top: 32px;
-    left: 32px;
-  }
-  .our-courses-list-item {
-    max-width: 342px;
-    min-height: 452px;
-    padding: 96px 32px 32px;
-  }
-  .our-courses-link {
-    top: 32px;
-    right: 32px;
-  }
-  .our-courses-desc {
-    font-size: 16px;
-    line-height: 1.25;
-  }
+   .our-courses-container {
+      align-items: start;
+   }
+
+   .our-courses-box {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 50px;
+   }
+
+   .our-courses-text {
+      margin: 0;
+      min-width: 381px;
+   }
+
+   .our-courses-list {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+   }
+
+   .our-courses-list-item::before {
+      top: 32px;
+      left: 32px;
+   }
+
+   .our-courses-list-item {
+      max-width: 342px;
+      min-height: 452px;
+      padding: 96px 32px 32px;
+   }
+
+   .our-courses-link {
+      top: 32px;
+      right: 32px;
+   }
+
+   .our-courses-desc {
+      font-size: 16px;
+      line-height: 1.25;
+   }
 }
+
 /* ============================================================================== */
 /*===================== FOR DESKTOP FROM 1280PX =================================*/
 @media only screen and (min-width: 1280px) {
-  .our-courses {
-    display: block;
-  }
-  .our-courses-text {
-    min-width: 405px;
-  }
-  .our-courses-list {
-    flex-wrap: nowrap;
-  }
-  .our-courses-list-item {
-    max-width: calc((100% - 40px) / 3);
-  }
-  .our-courses-link:hover,
-  .our-courses-link:focus {
-    background-color: var(--brown);
-    fill: var(--white);
-    cursor: pointer;
-  }
-  .our-courses-icon:hover,
-  .our-courses-icon:focus {
-    fill: var(--white);
-  }
+   .our-courses {
+      display: block;
+   }
+
+   .our-courses-text {
+      min-width: 405px;
+   }
+
+   .our-courses-list {
+      flex-wrap: nowrap;
+   }
+
+   .our-courses-list-item {
+      max-width: calc((100% - 40px) / 3);
+   }
+
+   .our-courses-link:hover,
+   .our-courses-link:focus {
+      background-color: var(--brown);
+      fill: var(--white);
+      cursor: pointer;
+   }
+
+   .our-courses-icon:hover,
+   .our-courses-icon:focus {
+      fill: var(--white);
+   }
 }
+
 /* ============================================================================= */
 /*============================= FOR DESKTOP FROM 1440PX =======================*/
 @media only screen and (min-width: 1440px) {
-  .our-courses-text {
-    min-width: 565px;
-  }
+   .our-courses-text {
+      min-width: 565px;
+   }
 }
+
 @media (hover: hover) {
-  .our-courses-link:hover {
-    background-color: var(--brown);
-  }
+   .our-courses-link:hover {
+      background-color: var(--brown);
+   }
 }
