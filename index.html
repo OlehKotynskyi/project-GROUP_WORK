@@ -14,8 +14,8 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
    />
    
-  <script type="module" crossorigin src="/project-GROUP_WORK/assets/index-77f34a48.js"></script>
-  <link rel="stylesheet" href="/project-GROUP_WORK/assets/index-ee052a3a.css">
+  <script type="module" crossorigin src="/project-GROUP_WORK/assets/index-7f3377a9.js"></script>
+  <link rel="stylesheet" href="/project-GROUP_WORK/assets/index-2e52d673.css">
 </head>
 
 <body>
@@ -149,7 +149,7 @@
 </section>
       <!--About Us section-->
 <section class="section-about section element-animation" id="about">
-   <div class="container">
+   <div class="about-blok container">
       <h2 class="title about-us-title">About&nbsp;<span>Us</span></h2>
       <div class="about-content">
 
@@ -241,7 +241,7 @@
       </ol>
    </div>
 </section>
-      <section class="section element-animation" id="mentors">
+      <section class="mentors-section section element-animation" id="mentors">
    <div class="our-mentors container  ">
       <h2 class="mentors-section-title title">Our <span>Mentors</span></h2>
       <ul class="mentors-section-list ">
@@ -285,30 +285,30 @@
    </div>
 </section>
       <section class="section element-animation" id="sign">
-   <div class="container signin ">
-      <div class="sign-up">
+   <div class="container signin-container ">
+      <div class="sign-up-blok">
          <h2 class="title sign-title">Sign <span>Up</span></h2>
-         <p class="text sign-please">
+         <p class="text sign-text">
             Please use the form below to contact us. Enter your name, email, and
             message and we'll get back to you shortly.
          </p>
          <div class="form-sign-container">
             <form class="form-sign">
                <div class="form-sign-blok">
-                  <input name="name" type="text" pattern="[A-Za-z]{6,}, ^[a-zA-Z]+$" class="input-sign" placeholder="Enter your name" required/>
+                  <input name="name" type="text" class="input-sign" placeholder="Enter your name" required />
                </div>
                <div class="form-sign-blok">
-                  <input name="email" class="input-sign" placeholder="Enter your email" type="email" required/>
+                  <input name="email" class="input-sign" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" placeholder="Enter your email" type="email" required />
                </div>
                <div class="form-sign-blok-area">
-                  <textarea name="text_area" class="input-sign area" placeholder="Message" cols="21" rows="4" required></textarea>
+                  <textarea name="text_area" class="input-sign sign-area" placeholder="Message" cols="21" rows="4" required></textarea>
                </div>
                <div class="form-sign-blok-btn">
                   <button class="sign-button" type="submit">Send</button>
                </div>
-               <p class="text accept">
+               <p class="text sign-text-accept">
                   By clicking on &#8243;Send&#8243; button, you agree to our
-                  <a href="" class="link-privacy">
+                  <a href="" class="sign-link-privacy">
                      Privacy Policy,
                   </a>
                   <br>
@@ -319,31 +319,31 @@
          </div>
       </div>
       <div class="sign-pictures">
-         <div class="picture-lens">
+         <div class="sign-picture-lens">
             <picture>
                <!-- 1440px -->
                <source media="(min-width: 1440px)" srcset="/project-GROUP_WORK/assets/lens-f59f1e3b.png 1x, /project-GROUP_WORK/assets/lens@2x-45bc4bb1.png 2x" type="image/png" />
                <!-- 1280px  -->
                <source media="(min-width: 1280px)" srcset="/project-GROUP_WORK/assets/lens-min-5098c07f.png 1x, /project-GROUP_WORK/assets/lens-min@2x-9b6c03ba.png 2x" type="image/png" />
 
-               <img src="/project-GROUP_WORK/assets/lens@2x-45bc4bb1.png" alt="lens" width="163" height="154" class="lens-img" loading="lazy" />
+               <img src="/project-GROUP_WORK/assets/lens@2x-45bc4bb1.png" alt="lens" width="163" height="154" class="sign-lens-img" loading="lazy" />
             </picture>
          </div>
-         <div class="picture-camera">
+         <div class="sign-picture-camera">
             <picture>
                <!-- 1440px -->
                <source media="(min-width: 1440px)" srcset="/project-GROUP_WORK/assets/camera-4d8156dc.png 1x, /project-GROUP_WORK/assets/camera@2x-dc4e777f.png 2x" />
                <!-- 1280px  -->
                <source media="(min-width: 1280px)" srcset="/project-GROUP_WORK/assets/camera-min-682db2cc.png 1x, /project-GROUP_WORK/assets/camera-min@2x-51de19af.png 2x" />
 
-               <img src="/project-GROUP_WORK/assets/camera@2x-dc4e777f.png" alt="camera" width="240" height="296" class="camera-img" loading="lazy" />
+               <img src="/project-GROUP_WORK/assets/camera@2x-dc4e777f.png" alt="camera" width="240" height="296" class="sign-camera-img" loading="lazy" />
             </picture>
          </div>
       </div>
    </div>
 </section>
       <section class="reviews-section section element-animation" id="reviews">
-   <div class="container ">
+   <div class="reviews-container container">
       <h2 class="reviews-title title">Reviews</h2>
 
       <ul class="reviews-list">
@@ -461,7 +461,7 @@
                   </div>
                </div>
             </div>
-            <div class="swiper-slide">
+            <div class="reviews-swiper swiper-slide">
                <div class="reviews-list-item">
                   <div class="reviews-person-container">
                      <img class="reviews-person-img" srcset="data:image/jpeg;base64,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 1x, /project-GROUP_WORK/assets/user-woman@2x-27fdaceb.jpg 2x" src="data:image/jpeg;base64,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" alt="Amanda Lowery photo" width="56" height="56" loading="lazy" />
@@ -504,7 +504,7 @@
    </main>
 
    <footer class="footer element-animation" id="contacts">
-   <div class="container ">
+   <div class="footer-container container">
       <div class="footer-info">
          <a class="logo-link" href="./index.html">
             <svg class="logo-icon icon" width="123" height="16">
@@ -523,46 +523,46 @@
       <div class="footer-nav">
          <ul class="footer-nav-list">
             <li>
-               <a class="link-nav" href="https://www.instagram.com/goitclub/" target="_blank">
+               <a class="link-nav footer-link" href="https://www.instagram.com/goitclub/" target="_blank">
                   Instagram
                </a>
             </li>
             <li>
-               <a class="link-nav" href="https://www.facebook.com/goITclub/" target="_blank">
+               <a class="link-nav footer-link" href="https://www.facebook.com/goITclub/" target="_blank">
                   Facebook
                </a>
             </li>
             <li>
-               <a class="link-nav" href="https://www.youtube.com/c/GoIT" target="_blank">
+               <a class="link-nav footer-link" href="https://www.youtube.com/c/GoIT" target="_blank">
                   YouTube
                </a>
             </li>
          </ul>
          <ul class="footer-nav-list">
             <li>
-               <a href="#about" class="link-nav">About us</a>
+               <a href="#about" class="link-nav footer-link">About us</a>
             </li>
             <li>
-               <a href="#courses" class="link-nav"> Our courses </a>
+               <a href="#courses" class="link-nav footer-link"> Our courses </a>
             </li>
             <li>
-               <a href="#mentors" class="link-nav"> Our mentors </a>
+               <a href="#mentors" class="link-nav footer-link"> Our mentors </a>
             </li>
             <li>
-               <a href="#reviews" class="link-nav">Reviews</a>
+               <a href="#reviews" class="link-nav footer-link">Reviews</a>
             </li>
             <li>
-               <a href="#contacts" class="link-nav">contacts</a>
+               <a href="#contacts" class="link-nav footer-link">contacts</a>
             </li>
          </ul>
       </div>
 
       <div class="footer-form">
-         <form class="contact-form" name="contact_form">
-            <label for="contact-info" class="contact-label">
-               <input class="contact-input" type="email" name="contact-info" placeholder="Enter your email" id="contact-info" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" />
+         <form class="footer-contact-form" name="contact_form">
+            <label for="contact-info" class="footer-contact-label">
+               <input class="footer-contact-input" type="email" name="contact-info" placeholder="Enter your email" id="contact-info" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" />
             </label>
-            <button class="contact-btn button" type="submit">Go</button>
+            <button class="footer-contact-btn" type="submit">Go</button>
          </form>
       </div>
 
