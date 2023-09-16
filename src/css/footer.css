@@ -27,6 +27,7 @@ only screen and (max-width: 767px) and (min-resolution: 2dppx) {
 }
 
 .footer-info-contacts {
+   font-size: 14px;
    line-height: 1.28;
    letter-spacing: -0.02em;
    font-style: normal;
